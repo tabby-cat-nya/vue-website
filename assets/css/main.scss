@@ -1,0 +1,66 @@
+// @import url("reset.scss");
+
+// @import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Chettan+2:wght@400..800&display=swap');
+
+:root {
+  --bg: #2b182b;
+  --fg: white;
+
+  --accent: #e17ff5;
+  --accent-dark: #630063;
+
+  --max-width: 70rem;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--bg);
+  color: var(--fg);
+  display: flex;
+  flex-direction: column;
+  // font-family: Comfortaa;
+  font-family: "Baloo Chettan 2";
+  height: 100dvh;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  width: 100dvw;
+  transition-property: background-color, color;
+  transition-duration: 250ms;
+}
+@media (prefers-color-scheme: light) {
+  body {
+    background-color: var(--fg);
+    color: var(--bg);
+  }
+}
+
+a {
+  color: var(--accent);
+  transition-duration: 200ms;
+
+  &:hover {
+    filter: brightness(115%);
+  }
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: var(--accent-dark);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: white;
+  border-radius: 10px;
+
+  &:hover {
+    background: var(--accent);
+  }
+}
