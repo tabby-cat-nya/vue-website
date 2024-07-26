@@ -15,15 +15,17 @@ useSeoMeta({
     <div class="container">
         <div class="left-col">
             <img src="https://avatars.githubusercontent.com/u/41929769" class="pfp" />
+            <div class="aboutme">
             <h1>About Me</h1>
-            <ul>
-                <li>20 years old, born in 2003</li>
-                <li>i go by she/they pronouns</li>
-                <li>studying games development @ UTS</li>
-                <li>linux initiate, currently using popOS with plasma DE</li>
-                <li>is a silly little catgirl :3</li>
-                <li>meow meow~ nya!!!</li>
-            </ul>
+              <ul>
+                  <li>20 years old, born in 2003</li>
+                  <li>i use she/they pronouns</li>
+                  <li>studying games development @ UTS</li>
+                  <li>linux initiate, currently using Kunbuntu</li>
+                  <li>Favourite game engine: <Purple>Godot!</Purple></li>
+                  <li>meow meow~ nya!!! :3</li>
+              </ul>
+            </div>
         </div>
         <div class="right-col">
             <h1>Heyo! I'm <Purple>Tom</Purple> 👋</h1>
@@ -85,7 +87,8 @@ useSeoMeta({
     <hr/>
     <!-- latest blog posts, link to all? -->
     <h1>Latest Blog Posts</h1>
-    <div class="container">
+    <p>Coming Soon!</p>
+    <!-- <div class="container">
       <TextCard
         href="https://cookiespl.itch.io/arcane-raiders"
         heading="Arcane Raiders"
@@ -104,7 +107,7 @@ useSeoMeta({
         description="meow meow"
       />
       
-    </div>
+    </div> -->
      
   </main>
 </template>
@@ -117,15 +120,17 @@ useSeoMeta({
 
 .left-col {
     flex:1;
-    width: 66%;
+    width: 50%;
     padding: 20px;
+    align-self: center;
     /* background-color: purple; */
 }
 
 .right-col {
     padding: 20px;
-    width: 500px;
+    width: 50%;
     flex: 2;
+    align-self: center;
     /* background-color: blueviolet; */
 }
 
@@ -135,10 +140,14 @@ useSeoMeta({
   background-color: pink;
 }
 
-@media (max-width: 800px){
+@media (max-width: 1000px){
     .container{
         flex-direction: column;
     }
+    .aboutme{
+      visibility: collapse;
+    }
+    
 }
 
 .pfp {
