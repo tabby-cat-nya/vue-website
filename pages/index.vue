@@ -7,6 +7,9 @@ useSeoMeta({
   description: "My personal website.",
   ogDescription: "My personal website.",
 });
+
+var { data } = await useAsyncData('home', () => queryContent('blog').sort({date:1}).find())
+
 </script>
 
 <template>
@@ -87,27 +90,28 @@ useSeoMeta({
     <hr/>
     <!-- latest blog posts, link to all? -->
     <h1>Latest Blog Posts</h1>
-    <p>Coming Soon!</p>
-    <!-- <div class="container">
+    <!-- <p>Coming Soon!</p> -->
+
+    <div class="container">
       <TextCard
-        href="https://cookiespl.itch.io/arcane-raiders"
-        heading="Arcane Raiders"
-        description="meow meow"
+        :href="data![0]._path"
+        :heading="data![0].title"
+        :description="data![0].description"
       />
 
       <TextCard 
-        href="https://cookiespl.itch.io/arcane-raiders"
-        heading="Arcane Raiders"
-        description="meow meow"
+        :href="data![1]._path"
+        :heading="data![1].title"
+        :description="data![1].description"
       />
 
-      <TextCard 
+      <!-- <TextCard 
         href="https://cookiespl.itch.io/arcane-raiders"
         heading="Arcane Raiders"
         description="meow meow"
-      />
+      /> -->
       
-    </div> -->
+    </div>
      
   </main>
 </template>

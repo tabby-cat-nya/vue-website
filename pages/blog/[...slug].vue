@@ -14,7 +14,7 @@
       <ContentDoc v-slot="{ doc }">
         <article class="post">
           <h1>{{ doc.title }}</h1>
-          <p>{{ doc.date }}</p>
+          <p>Date Posted: {{ doc.date }}</p>
           <hr/>
           <ContentRenderer :value="doc" />
         </article>
