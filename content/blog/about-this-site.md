@@ -30,8 +30,16 @@ Much of the sites style and code was inspired (and kinda copied) by bryley! Than
 
 As i develop my site more i hope to make its design more original but its been really nice to work with some existing code to learn the framework :3
 
+
+## Todo List
+
+- [ ] Properly make my own style/layout for the site
+- [ ] Fix the way the pages are formatted differently between live and `npm run dev` (they look so much better int he preview T_T)
+    - *its got something to do with `nuxt generate` vs `nuxt build` in the vercel setting i think, but on generate the site is blank sooooo, until i find a fix you shall have to see the weird formatting 😔*
+
 --- 
 
 Thats all i can think fo for now, if something else comes up i guess ill add it!
 
 Heres my repo if you want see the code: https://github.com/Clevertop/vue-website
+
