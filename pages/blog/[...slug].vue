@@ -33,4 +33,13 @@
     width: 80%;
   }
 
+  main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    margin-top: 3.5rem;
+    gap: 2rem;
+  }
+
 </style>

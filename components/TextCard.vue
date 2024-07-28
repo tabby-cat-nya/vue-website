@@ -2,7 +2,9 @@
 const props = defineProps({
   href: String,
   heading: String,
-  description: String
+  description: String,
+  subheading: String,
+  id: Number
 });
 </script>
 
@@ -10,7 +12,8 @@ const props = defineProps({
     <a class="text-container" :href="props.href">
         
         <div class="text-content">
-            <h2>{{props.heading}}</h2>
+            <h2 class="heading"> {{props.heading}}</h2>
+            <p class="subheading">{{props.subheading}} - #{{ props.id }}</p>
             <p>{{props.description}}</p>
         </div>
     </a>
@@ -53,5 +56,15 @@ const props = defineProps({
             visibility:visible;
         }
         
+    }
+
+    .subheading{
+        color: grey;
+        margin: 0;
+        font-size: small;
+    }
+
+    .heading{
+        margin: 0;
     }
 </style>

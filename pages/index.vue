@@ -8,7 +8,7 @@ useSeoMeta({
   ogDescription: "My personal website.",
 });
 
-var { data } = await useAsyncData('home', () => queryContent('blog').sort({date:1}).find())
+var { data } = await useAsyncData('home', () => queryContent('blog').sort({id:-1}).limit(3).find())
 
 </script>
 
@@ -89,29 +89,26 @@ var { data } = await useAsyncData('home', () => queryContent('blog').sort({date:
     <!-- seperator -->
     <hr/>
     <!-- latest blog posts, link to all? -->
-    <h1>Latest Blog Posts</h1>
+    <h1 class="no-margins">Latest Blog Posts</h1>
+    <a class="no-margins" href="/blog-index">View All</a>
     <!-- <p>Coming Soon!</p> -->
 
     <div class="container">
-      <TextCard
-        :href="data![0]._path"
-        :heading="data![0].title"
-        :description="data![0].description"
+      
+      <TextCard v-for="post in data"
+        :key="post.id"
+        :href="post._path"
+        :heading="post.title"
+        :subheading="post.date"
+        :description="post.description"
+        :id="post.id"
       />
-
-      <TextCard 
-        :href="data![1]._path"
-        :heading="data![1].title"
-        :description="data![1].description"
-      />
-
-      <!-- <TextCard 
-        href="https://cookiespl.itch.io/arcane-raiders"
-        heading="Arcane Raiders"
-        description="meow meow"
-      /> -->
+      
+      
       
     </div>
+
+    
      
   </main>
 </template>
@@ -195,5 +192,9 @@ hr {
   hr {
     filter: invert();
   }
+}
+
+.no-margins{
+  margin: -10px;
 }
 </style>
