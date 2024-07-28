@@ -102,6 +102,7 @@ var { data } = await useAsyncData('home', () => queryContent('blog').sort({id:-1
         :subheading="post.date"
         :description="post.description"
         :id="post.id"
+        :tags="post.tags"
       />
       
       
