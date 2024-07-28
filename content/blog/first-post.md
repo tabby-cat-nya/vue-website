@@ -4,6 +4,7 @@ title: 'First Blog Post'
 description: 'A simple test post to make sure everythings working'
 date: '20-07-2024'
 id: 1
+tags: ''
 
 ---
 

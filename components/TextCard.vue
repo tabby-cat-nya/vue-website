@@ -4,7 +4,8 @@ const props = defineProps({
   heading: String,
   description: String,
   subheading: String,
-  id: Number
+  id: Number,
+  tags: String
 });
 </script>
 
@@ -13,7 +14,8 @@ const props = defineProps({
         
         <div class="text-content">
             <h2 class="heading"> {{props.heading}}</h2>
-            <p class="subheading">{{props.subheading}} - #{{ props.id }}</p>
+            <p v-if="tags===''" class="subheading">{{props.subheading}} - #{{ props.id }}</p>
+            <p v-else class="subheading">{{props.subheading}} - #{{ props.id }} - {{ props.tags }}</p>
             <p>{{props.description}}</p>
         </div>
     </a>
