@@ -10,7 +10,7 @@
 
 <template>
     <main>
-      <a href="/"><-- Return Home</a>
+      <a href="javascript:window.history.back();"><-- Go Back</a>
       <ContentDoc v-slot="{ doc }">
         <article class="post">
           <h1>{{ doc.title }}</h1>

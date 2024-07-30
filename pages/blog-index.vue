@@ -6,8 +6,10 @@
     <p class="no-margin" v-if="qSupplied">Selected Tag: <strong>{{query}}</strong> <a v-if="qSupplied" href="blog-index">(Clear Search)</a></p>
     <p class="no-margin">Tag Search:
       <a href="blog-index?tag=Programming">Programming</a> - 
-      <a href="blog-index?tag=GameDev">Game Dev</a> - 
-      <a href="blog-index?tag=Queer">Queer Stuff</a>
+      <a href="blog-index?tag=Godot">Godot</a> - 
+      <a class="no-posts" href="blog-index?tag=Tech">Tech</a> - 
+      <a class="no-posts" href="blog-index?tag=Queerness">Queerness</a> - 
+      <a class="no-posts" href="blog-index?tag=Mental Health">Mental Health</a>
     </p>
 
     <hr>
@@ -27,17 +29,23 @@
 </template>
 
 <script lang="ts" setup>
+  useSeoMeta({
+    title: "Blog",
+    ogTitle: "Blog",
+    description: "I write about random things sometimes",
+    ogDescription: "I write about random things sometimes",
+  });
   // const route = useRoute()
   // const { data: tagSearch } = await useFetch(`/api/mountains/${route.params.slug}`)
   var query : string = String(useRoute().query.tag)
   var qSupplied : boolean = false
-  console.log (query == 'undefined')
+  // console.log (query == 'undefined')
   if (query == 'undefined'){
     query = ''
-    console.log('no tag supplied')
+    // console.log('no tag supplied')
   }
   else{
-    console.log('tag successful')
+    // console.log('tag successful')
     qSupplied = true
   }
   var { data } = await useAsyncData('home', () => queryContent('blog').where({ tags: { $contains: query } }).sort({id:-1}).find())
@@ -55,5 +63,9 @@
 
   .no-margin{
     margin: 0
+  }
+
+  .no-posts{
+    color: gray;
   }
 </style>
