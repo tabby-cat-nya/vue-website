@@ -3,13 +3,14 @@
     <a href="/"><-- Return Home</a>
     <h1>Tom's Blog</h1>
     
-    <p>Tag Search: 
-      <a v-if="qSupplied" href="blog-index">Clear Search</a> - 
+    <p class="no-margin" v-if="qSupplied">Selected Tag: <strong>{{query}}</strong> <a v-if="qSupplied" href="blog-index">(Clear Search)</a></p>
+    <p class="no-margin">Tag Search:
       <a href="blog-index?tag=Programming">Programming</a> - 
       <a href="blog-index?tag=GameDev">Game Dev</a> - 
       <a href="blog-index?tag=Queer">Queer Stuff</a>
     </p>
 
+    <hr>
     <TextCard v-for="post in data"
         :key="post.id"
         :href="post._path"
@@ -49,6 +50,10 @@
     align-items: center;
     padding: 2rem;
     margin-top: 3.5rem;
-    gap: 2rem;
+    gap: 0rem;
+  }
+
+  .no-margin{
+    margin: 0
   }
 </style>
