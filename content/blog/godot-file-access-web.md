@@ -19,7 +19,7 @@ This singleton only works in web exports since it allows us to connect the engin
 - Pros: If you can do it in JS, you can almost certainly do it here
 - Cons: Godots inbuilt editor has basically no support for it so you'll be editing JS code without any error checking/IntelliSense unless you make it in another IDE 
 
-![A text string containing JavaScript Code](public/img/blogImages/jsCodeInString.png)
+![A text string containing JavaScript Code](https://github.com/Clevertop/vue-website/blob/master/public/img/blogImages/JsCodeInString.png?raw=true)
 
 ## Loading/Uploading Files
 Uploading files is by far more complicated and while I'm sure you could implement it from scratch with the bridge I opted to use the [FileAccessWeb addon by scrawach](https://godotengine.org/asset-library/asset/2118) as it is exactly what I needed for my project
