@@ -94,6 +94,7 @@ A number of programs cannot be run on Linux, this is quite bad and likely a deal
 	- Solid video editor, does everything i need it to. However doesn't have quite as advanced effects as Premiere
 - Github Desktop -> GittyUp
 	- Weird that GitHub didn't make a native client but maybe they just think we'll use CLI? anyway GittyUp is a pretty nice alternative if you'd like a GUI like I do
+	- For purely code based projects Visual Studio Code also has a great built in version control system!
 - Minecraft Launcer -> Prism Launcher
 	- Honestly its just better, even on Windows. its got inbuilt support for managing mod packs from Curseforge, Modrinth and Technic without down loading 3 additional launchers. Only downside is you cant run bedrock edition
 
