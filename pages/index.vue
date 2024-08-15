@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import ProjectCard from '~/components/ProjectCard.vue';
+// import ProjectCard from '~/components/ProjectCard.vue';
 
 useSeoMeta({
   title: "Home",
@@ -57,6 +57,30 @@ var { data } = await useAsyncData('home', () => queryContent('blog').sort({id:-1
             <h2>Tech i've got experience with:</h2>
             <img class="" src="https://skillicons.dev/icons?i=git,androidstudio,arduino,bash,blender,cs,cloudflare,css,fediverse,github,godot,html,idea,js,linux,lua,md,netlify,nextjs,nodejs,npm,nuxtjs,obsidian,php,postgres,py,react,sass,supabase,ts,unity,unreal,vercel,vscode,vue&perline=12" />
         </div> 
+    </div>
+    <hr/>
+    <h1>Latest Project</h1>
+    <div class="container">
+      <ProjectCard
+          class="left-col"
+          src="https://img.itch.zone/aW1nLzE3MzE3NDAzLnBuZw==/315x250%23c/pxmt%2BB.png"
+          href="https://clevertop.itch.io/chronochamber "
+          heading="Chrono Chamber"
+          description="Complete the level before time catches up to you"
+      />
+      <div class="right-col">
+        <p>Released! - 14/8/2024</p>
+        <p>3D Puzzle Game made for the <a href="https://itch.io/jam/playmakers-august-game-jam">Playmakers August Jam</a>!</p>
+        <p>In each level you are given a number of "Command Blocks" to use which can be placed into the pedestals, After starting the level the pedestals are activated one by one in a clockwise order, when a pedestal is activated it will execute the command placed upon it (if any) such as "Jump", "Dash", or "Phase. Use these to reach each levels exit!"</p>
+      </div>
+      
+      <!-- <div class="right-col">
+        
+      </div>
+      <div class="right-col">
+        
+      </div> -->
+
     </div>
     <!-- seperator -->
     <hr/>
