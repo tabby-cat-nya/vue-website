@@ -60,9 +60,9 @@ var { data } = await useAsyncData('home', () => queryContent('blog').sort({id:-1
     </div>
     <hr/>
     <h1>Latest Project</h1>
-    <div class="container">
+    <div class="featured-container">
       <ProjectCard
-          class="left-col"
+          class="fix-size-pls"
           src="https://img.itch.zone/aW1nLzE3MzE3NDAzLnBuZw==/315x250%23c/pxmt%2BB.png"
           href="https://clevertop.itch.io/chronochamber "
           heading="Chrono Chamber"
@@ -144,6 +144,16 @@ var { data } = await useAsyncData('home', () => queryContent('blog').sort({id:-1
     
 }
 
+.featured-container{
+  display: flex;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.small-image-pls {
+  height: 20%;
+}
+
 .left-col {
     flex:1;
     width: 50%;
@@ -168,6 +178,9 @@ var { data } = await useAsyncData('home', () => queryContent('blog').sort({id:-1
 
 @media (max-width: 1000px){
     .container{
+        flex-direction: column;
+    }
+    .featured-container{
         flex-direction: column;
     }
     .aboutme{
