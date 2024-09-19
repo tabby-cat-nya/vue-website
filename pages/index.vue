@@ -52,6 +52,7 @@ var { data } = await useAsyncData('home', () => queryContent('blog').sort({id:-1
                     src="img/linkedin.svg" 
                     href="https://www.linkedin.com/in/tom--howarth/" 
                 />
+                <!-- add team stingray logo which goes to discord server here  -->
                 
             </Socials>
             <h2>Tech i've got experience with:</h2>
@@ -68,7 +69,7 @@ var { data } = await useAsyncData('home', () => queryContent('blog').sort({id:-1
           heading="Chrono Chamber"
           description="Complete the level before time catches up to you"
       />
-      <div class="right-col">
+      <div class="featured-text">
         <p>Released! - 14/8/2024</p>
         <p>3D Puzzle Game made for the <a href="https://itch.io/jam/playmakers-august-game-jam">Playmakers August Jam</a>!</p>
         <p>In each level you are given a number of "Command Blocks" to use which can be placed into the pedestals, After starting the level the pedestals are activated one by one in a clockwise order, when a pedestal is activated it will execute the command placed upon it (if any) such as "Jump", "Dash", or "Phase. Use these to reach each levels exit!"</p>
@@ -170,6 +171,14 @@ var { data } = await useAsyncData('home', () => queryContent('blog').sort({id:-1
     /* background-color: blueviolet; */
 }
 
+.featured-text {
+    padding: 0px;
+    width: 100%;
+    flex: 2;
+    align-self: center;
+    /* background-color: blueviolet; */
+}
+
 .cute-box{
   width: 350px;
   flex:2;
@@ -182,6 +191,8 @@ var { data } = await useAsyncData('home', () => queryContent('blog').sort({id:-1
     }
     .featured-container{
         flex-direction: column;
+        margin-left: 0%;
+        margin-right: 0%;
     }
     .aboutme{
       visibility: collapse;
