@@ -117,3 +117,12 @@ Its a shame that this kind of instability exists and could potentially ruin a le
 Please dual boot so you have something to go back to if its not working, and keep backups in-case something goes really wrong.
 
 Otherwise, good luck! 💜
+
+---
+
+## Update 20/9/2024
+Ive decided to switch my desktop computer back to windows 😔, Unfortuantely its was just too stressful for me to keep ontop of linux maintenance in addition to all of my other commitments.
+
+I've kept it on my laptop for now because it is genuinly better there, I get 2-3 more hours compared to windows which is big considering tis never had particularly good battery life. On my desktop it only caused issues and (minor) performance losses...
+
+At some point I hope to return~ When I was in a good headspace where I could deal with linux issues it was alot of fun, and i really dont want to be forced onto windows 11 when 10 is discontinued.
