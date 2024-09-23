@@ -34,7 +34,7 @@ var { data } = await useAsyncData('home', () => queryContent('blog').sort({id:-1
             <h1>Heyo! I'm <Purple>Tabby</Purple> 👋</h1>
             <p>I'm a Games Developer from Sydney, Australia.</p>
             <p>I've been programming since 2015 and am currently in my final year of the Games Development degree at UTS</p>
-            <p>Currently im working with my group, <a href="https://discord.gg/3BPYMHqNve">Team Stingray</a>, to create a new racing game about modding your car during the race and continuining to work on <a href="https://teamstingray.dev/arcane-raiders">Arcane Raiders</a> ready for showcase at SXSW Sydney! Feel free to join our discord server if you'd like to follow along with development!</p>
+            <p>Currently im working with my group, <a href="https://teamstingray.dev">Team Stingray</a>, to create a new racing game about modding your car during the race and continuining to work on <a href="https://teamstingray.dev/arcane-raiders">Arcane Raiders</a> ready for showcase at SXSW Sydney! Feel free to join our <a href="https://discord.gg/3BPYMHqNve">discord server</a> if you'd like to follow along with development!</p>
             <Socials>
                 <Social 
                     src="img/github.svg" 
@@ -46,11 +46,15 @@ var { data } = await useAsyncData('home', () => queryContent('blog').sort({id:-1
                 />
                 <Social
                     src="img/steam.svg"
-                    href="https://store.steampowered.com/search/?developer=Clevertop"
+                    href="https://store.steampowered.com/search/?developer=Tabby"
                 />
                 <Social 
                     src="img/linkedin.svg" 
                     href="https://www.linkedin.com/in/tom--howarth/" 
+                />
+                <Social 
+                    src="img/verticalWhite.png" 
+                    href="https://teamstingray.dev" 
                 />
                 <!-- add team stingray logo which goes to discord server here  -->
                 
