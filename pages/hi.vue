@@ -1,4 +1,13 @@
+<script setup lang="ts">
 
+useSeoMeta({
+  title: "hi from SXSW!",
+  ogTitle: "hi from SXSW!",
+  description: "Landing page for visitors who scanned my business card",
+  ogDescription: "Landing page for visitors who scanned my business card",
+});
+
+</script>
 
 <template>
     <main>
@@ -44,7 +53,13 @@
 
 <style scoped>
     main{
-        text-align: center
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 2rem;
+        margin-top: 3.5rem;
+        gap: 2rem;
     }
 
     .pfp{
@@ -65,6 +80,13 @@
 
     .no-margin{
         margin: 0;
+    }
+
+  
+    hr {
+        width: 100%;
+        border: 1px dashed var(--accent-dark);
+        max-width: var(--max-width);
     }
 
 </style>
