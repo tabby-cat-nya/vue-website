@@ -12,7 +12,7 @@ useSeoMeta({
 <template>
     <main>
         <h1>Welcome!</h1>
-        <img src="https://avatars.githubusercontent.com/u/41929769" class="pfp" />
+        <img src="/img/Tabby.JPG" class="pfp" />
         
         <hr>
         <p>Coming here from SXSW and wanna check out the games I was showcasing? Check them out below!</p>
@@ -66,6 +66,7 @@ useSeoMeta({
         border-color: --accent;
         border-radius: 10px;
         border: 7px solid #e17ff5;
+        width: 60%;
     }
 
     @media (max-width: 1000px){
