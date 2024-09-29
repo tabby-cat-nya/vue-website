@@ -66,7 +66,8 @@ useSeoMeta({
         border-color: --accent;
         border-radius: 10px;
         border: 7px solid #e17ff5;
-        width: 60%;
+        width: 80%;
+        max-width: 600px;
     }
 
     @media (max-width: 1000px){
