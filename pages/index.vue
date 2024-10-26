@@ -56,6 +56,10 @@ var { data } = await useAsyncData('home', () => queryContent('blog').sort({id:-1
                     src="img/verticalWhite.png" 
                     href="https://teamstingray.dev" 
                 />
+                <Social 
+                    src="img/portfolio.png" 
+                    href="https://portfolium.com.au/Tabby" 
+                />
                 <!-- add team stingray logo which goes to discord server here  -->
                 
             </Socials>
