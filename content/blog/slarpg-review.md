@@ -8,7 +8,7 @@ tags: 'Queerness, Gaming '
 
 ---
 
-I've finally finished all my assignments for the semester meaning I can finish Super Lesbian Animal RPG (SLARPG)!!! It a cute little game I picked up a few months ago even though I've barley played RPG games before, the themes, story and queer representation sounded interesting. Additionally I had heard that it was a good RPG for beginner players like me.
+I've finally finished all my assignments for the semester meaning I can finish [Super Lesbian Animal RPG](https://store.steampowered.com/app/2124380/Super_Lesbian_Animal_RPG/)(SLARPG)!!! It a cute little game I picked up a few months ago even though I've barley played RPG games before, the themes, story and queer representation sounded interesting. Additionally I had heard that it was a good RPG for beginner players like me.
 
 ## Difficulty
 I felt the difficulty of the game was really good, the difficulty curve used in the game felt like it aligned pretty well with my natural progression, so while there were designated monster dens designed for letting you grind XP and level up, I never needed to use them and the game never forced me to grind in order to be strong enough for fights.
