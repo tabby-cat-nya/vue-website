@@ -8,7 +8,7 @@
       <a href="blog-index?tag=Programming">Programming</a> - 
       <a href="blog-index?tag=Godot">Godot</a> - 
       <a href="blog-index?tag=Tech">Tech</a> - 
-      <a class="no-posts" href="blog-index?tag=Queerness">Queerness</a> - 
+      <a href="blog-index?tag=Queerness">Queerness</a> - 
       <a class="no-posts" href="blog-index?tag=Mental Health">Mental Health</a>
     </p>
 
