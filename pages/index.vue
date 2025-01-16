@@ -21,10 +21,10 @@ var { data } = await useAsyncData('home', () => queryContent('blog').sort({id:-1
             <div class="aboutme">
             <h1>About Me</h1>
               <ul>
-                  <li>20 years old, born in 2003</li>
+                  <li>21 years old, born in 2003</li>
                   <li>i use she/they pronouns</li>
                   <li>studying games development @ UTS</li>
-                  <li>linux initiate, currently using Kunbuntu</li>
+                  <li>linux initiate, currently using Mint 22</li>
                   <li>Favourite game engine: <Purple>Godot!</Purple></li>
                   <li>meow meow~ nya!!! :3</li>
               </ul>
@@ -34,15 +34,15 @@ var { data } = await useAsyncData('home', () => queryContent('blog').sort({id:-1
             <h1>Heyo! I'm <Purple>Tabby</Purple> 👋</h1>
             <p>I'm a Games Developer from Sydney, Australia.</p>
             <p>I've been programming since 2015 and am currently in my final year of the Games Development degree at UTS</p>
-            <p>Currently im working with my group, <a href="https://teamstingray.dev">Team Stingray</a>, to create a new racing game about modding your car during the race and continuining to work on <a href="https://teamstingray.dev/arcane-raiders">Arcane Raiders</a> ready for showcase at SXSW Sydney! Feel free to join our <a href="https://discord.gg/3BPYMHqNve">discord server</a> if you'd like to follow along with development!</p>
+            <p>Currently im working with my group, <a href="https://teamstingray.dev">Team Stingray</a>, to finish up our uni project <a href="https://teamstingray.dev/arcane-raiders">Arcane Raiders</a> and release it on Steam! Feel free to join our <a href="https://discord.gg/3BPYMHqNve">discord server</a> if you'd like to follow along with development!</p>
             <Socials>
                 <Social 
                     src="img/github.svg" 
-                    href="https://github.com/Clevertop" 
+                    href="https://github.com/tabby-cat-nya" 
                 />
                 <Social
                     src="img/itch-io.svg"
-                    href="https://clevertop.itch.io/"
+                    href="https://tabby-cat-nya.itch.io/"
                 />
                 <Social
                     src="img/steam.svg"
@@ -59,6 +59,10 @@ var { data } = await useAsyncData('home', () => queryContent('blog').sort({id:-1
                 <Social 
                     src="img/portfolio.png" 
                     href="https://portfolium.com.au/Tabby" 
+                />
+                <Social 
+                    src="img/oldweb.png" 
+                    href="https://oldweb.tabbycat.dev/" 
                 />
                 <!-- add team stingray logo which goes to discord server here  -->
                 
