@@ -76,15 +76,15 @@ var { data } = await useAsyncData('home', () => queryContent('blog').sort({id:-1
     <div class="featured-container">
       <ProjectCard
           class="fix-size-pls"
-          src="https://img.itch.zone/aW1nLzE3MzE3NDAzLnBuZw==/315x250%23c/pxmt%2BB.png"
-          href="https://clevertop.itch.io/chronochamber "
-          heading="Chrono Chamber"
-          description="Complete the level before time catches up to you"
+          src="https://upload.wikimedia.org/wikipedia/en/f/f2/Pikmin_Bloom_App_icon.png"
+          href="https://bsky.app/profile/tabbycat.dev"
+          heading="Pikmin Bloom Stats"
+          description="Figuring out how the game works"
       />
       <div class="featured-text">
-        <p>Released! - 14/8/2024</p>
-        <p>3D Puzzle Game made for the <a href="https://itch.io/jam/playmakers-august-game-jam">Playmakers August Jam</a>!</p>
-        <p>In each level you are given a number of "Command Blocks" to use which can be placed into the pedestals, After starting the level the pedestals are activated one by one in a clockwise order, when a pedestal is activated it will execute the command placed upon it (if any) such as "Jump", "Dash", or "Phase. Use these to reach each levels exit!"</p>
+        <p>Pikmin Bloom is one of the funny little geospatial games that Niantic made with Nintendo</p>
+        <p>I'm trying to figure out how many of the games mechanics work in relation to event rewards and what the best way to manage pikmin and mushrooms are especially early each month</p>
+        <p>Follow updates and findings on my <a href="https://bsky.app/profile/tabbycat.dev">Bluesky</a>!</p>
       </div>
       
       <!-- <div class="right-col">
