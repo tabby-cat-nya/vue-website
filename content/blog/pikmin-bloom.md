@@ -12,13 +12,16 @@ Those of you who follow my [Bluesky](https://bsky.app/profile/tabbycat.dev) migh
 Pikmin Bloom is a location based game made by Niantic, heard of Pokemon Go? It's the same people. Like most of their apps they are advertised as a game where you go outside and explore in order to progress - especially so in Pikmin Bloom where you are encouraged to walk around so you can grow Pikmin and plant flowers.
 
 I started playing in mid December, A few days before heading down to the country to spend Christmas with my family, and hoped that the game would be a nice little motivation to spend time outside and go on walks. During the time I spent in the country this worked great, and at the start of January I made it a goal to try and get 12000 event points for the *Blue Choclateir Dress* and track my progress throughout the month.
-![A screenshot of my spreadsheet for tracking my stats in Pikmin Bloom](https://github.com/Clevertop/vue-website/blob/master/public/img/blogImages/PikminSpreadsheet.png?raw=true)
+
+![A screenshot of my spreadsheet for tracking my stats in Pikmin Bloom](https://github.com/Clevertop/vue-website/blob/master/public/img/blogImages/PikminSpreadsheet.jpg?raw=true)
 
 Within the first couple weeks, I was well on my way and had gathered some interesting information about how the game seemed to distribute rewards - One of the games mechanics is *mushrooms*. These are points of interest that appear on the map and players must work together to destroy them. Usually they would provide a reward relevant to the color of the mushroom but the monthly *event mushrooms* instead provide a mystery box.
 From the data I had collected, I found that providing a higher contribution to a mushroom battle compared to your peers resulted in a statistically better chance at receiving a higher quality mystery box that could contain better rewards - and most importantly for my objectives - **more event points**!
+
 ![Some of my findings from the pikmin bloom stats showing the above discovery](https://github.com/Clevertop/vue-website/blob/master/public/img/blogImages/PikminBluesky.png?raw=true)
 
 This was very good news as I had already found that the event mushrooms were the single biggest source of event points in the game, so it was important to use all 3 attacks effectively to provide the best chances of receiving the event points that were needed. Especially since I figured out at the start of the month that I would need approximately 429 event points per day in order to reach my goal of 12000 by the end of the (28 day) month.
+
 ![A table showing my cocoa earnigns over the first 11 days of the challenge](https://github.com/Clevertop/vue-website/blob/master/public/img/blogImages/PikminCocoa.png?raw=true)
 
 For the first couple weeks I was able to maintain the required average but then the strategy unfortunately fell apart when I returned to Sydney. While I was in the country, I had been logging on a few times a day when I had a bit of downtime to send my Pikmin off to battle mushrooms in a largely uncontested area. When I returned to the city, this was no longer the case and suddenly the game changed from a relaxing way to fill downtime to a frustrating search for mushrooms to attack.
