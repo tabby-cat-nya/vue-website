@@ -71,8 +71,8 @@ var { data } = await useAsyncData('home', () => queryContent('blog').sort({id:-1
             <img class="" src="https://skillicons.dev/icons?i=git,androidstudio,arduino,bash,blender,cs,cloudflare,css,fediverse,github,godot,html,idea,js,linux,lua,md,netlify,nextjs,nodejs,npm,nuxtjs,obsidian,php,postgres,py,react,sass,supabase,ts,unity,unreal,vercel,vscode,vue,processing&perline=12" />
         </div> 
     </div>
-    <hr/>
-    <h1>Latest Project</h1>
+    <!-- <hr/> -->
+    <!-- <h1>Latest Project</h1>
     <div class="featured-container">
       <ProjectCard
           class="fix-size-pls"
@@ -86,15 +86,7 @@ var { data } = await useAsyncData('home', () => queryContent('blog').sort({id:-1
         <p>I'm trying to figure out how many of the games mechanics work in relation to event rewards and what the best way to manage pikmin and mushrooms are especially early each month</p>
         <p>Follow updates and findings on my <a href="https://bsky.app/profile/tabbycat.dev">Bluesky</a>!</p>
       </div>
-      
-      <!-- <div class="right-col">
-        
-      </div>
-      <div class="right-col">
-        
-      </div> -->
-
-    </div>
+    </div> -->
     <!-- seperator -->
     <hr/>
     <!-- featured projects, link to all? -->
