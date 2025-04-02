@@ -91,7 +91,7 @@ var { data } = await useAsyncData('home', () => queryContent('blog').sort({id:-1
     <hr/>
     <!-- featured projects, link to all? -->
     <h1>Featured Projects</h1>
-    <div class="container">
+    <div class="featured-container">
       <ProjectCard 
         src="https://img.itch.zone/aW1nLzE2Mjg0ODg2LnBuZw==/315x250%23c/6FRKz0.png" 
         href="https://teamstingray.dev/arcane-raiders"
@@ -122,7 +122,7 @@ var { data } = await useAsyncData('home', () => queryContent('blog').sort({id:-1
     <a class="no-margins" href="/blog-index">View All</a>
     <!-- <p>Coming Soon!</p> -->
 
-    <div class="container">
+    <div class="featured-container">
       
       <TextCard v-for="post in data"
         :key="post.id"
@@ -146,7 +146,13 @@ var { data } = await useAsyncData('home', () => queryContent('blog').sort({id:-1
 <style scoped>
 .container {
     display: flex;
+    width: 100%
     
+}
+
+.featured-container{
+  display: flex;
+  width: 80%;
 }
 
 .featured-container{
@@ -199,13 +205,13 @@ var { data } = await useAsyncData('home', () => queryContent('blog').sort({id:-1
         margin-right: 0%;
     }
     .aboutme{
-      visibility: collapse;
+      display: none;
     }
     
 }
 
 .pfp {
-  width: auto;
+  width: 100%;
   aspect-ratio: 1/1;
   border-radius: 100%;
   box-shadow:
