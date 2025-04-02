@@ -145,21 +145,24 @@ var { data } = await useAsyncData('home', () => queryContent('blog').sort({id:-1
 
 <style scoped>
 .container {
-    display: flex;
-    width: 100%
+  display: flex;
+  width: 100%
     
 }
 
 .featured-container{
   display: flex;
   width: 80%;
+  justify-content: center;
+  /* margin-left: auto;
+  margin-right: auto; */
 }
 
-.featured-container{
+/* .featured-container{
   display: flex;
   margin-left: 20%;
   margin-right: 20%;
-}
+} */
 
 .small-image-pls {
   height: 20%;
