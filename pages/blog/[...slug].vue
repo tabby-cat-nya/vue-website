@@ -10,7 +10,8 @@
 
 <template>
     <main>
-      <a href="javascript:window.history.back();"><-- Go Back</a>
+      <!-- <a href="javascript:window.history.back();"><-- Go Back</a> -->
+      <BigButton text="<<< Return to blog listing" href="/blog-index"/>
       <ContentDoc v-slot="{ doc }">
         <article class="post">
           <h1>{{ doc.title }}</h1>
@@ -30,7 +31,23 @@
   
 <style>
   .post{
-    width: 80%;
+    width: 50%;
+    
+  }
+
+  /* i wonder if this will cause issues */
+  img{ 
+    width: 100%;
+  }
+
+  @media (max-width: 1000px){
+    .post{
+      width: 80%;
+    }
+
+    img{
+      width: 100%;
+    }
   }
 
   main {

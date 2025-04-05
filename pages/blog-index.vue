@@ -1,6 +1,7 @@
 <template>
   <main>
-    <a href="/"><-- Return Home</a>
+    <!-- <a href="/"><-- Return Home</a> -->
+    <BigButton text="<<< Return Home" href="/"/>
     <h1>Tom's Blog</h1>
     
     <p class="no-margin" v-if="qSupplied">Selected Tag: <strong>{{query}}</strong> <a v-if="qSupplied" href="blog-index">(Clear Search)</a></p>
