@@ -18,7 +18,7 @@ const props = defineProps({
     
 </template>
 
-<style>
+<style scoped>
     .image-container{
         position: relative;
         text-align: center;

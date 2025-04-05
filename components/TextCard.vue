@@ -22,7 +22,7 @@ const props = defineProps({
     
 </template>
 
-<style>
+<style scoped>
     .text-container{
         position: relative;
         text-align: center;

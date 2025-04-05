@@ -37,6 +37,7 @@ const props = defineProps({
 
   h2{
     margin: 0;
+    text-align: center;
   }
 
   .blog-header{

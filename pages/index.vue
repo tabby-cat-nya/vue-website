@@ -144,16 +144,34 @@ var { data } = await useAsyncData('home', () => queryContent('blog').sort({id:-1
 </template>
 
 <style scoped>
+h1{
+  text-align: center;
+}
+
+
+
 .container {
   display: flex;
-  width: 100%
+  margin-left: 10%;
+  margin-right: 10%;
+  justify-content: center;
     
+}
+
+@media (max-width: 1000px){
+  .container{
+    margin: 0;
+  }
+  
 }
 
 .featured-container{
   display: flex;
-  width: 80%;
+  width: 100%;
   justify-content: center;
+  
+  /* margin-left: auto;
+  margin-right: auto; */
   /* margin-left: auto;
   margin-right: auto; */
 }
@@ -163,6 +181,8 @@ var { data } = await useAsyncData('home', () => queryContent('blog').sort({id:-1
   flex-direction: column;
   width: 80%;
   justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .small-image-pls {
@@ -232,7 +252,7 @@ var { data } = await useAsyncData('home', () => queryContent('blog').sort({id:-1
 }
 </style>
 
-<style>
+<style scoped>
 main {
   /* display: flex;
   flex-direction: column;
@@ -241,13 +261,7 @@ main {
   /* margin-top: 3.5rem; */
   /* gap: 2rem; */
 }
-hr {
-  width: 100%;
-  height: 0px;
-  border: 5px  var(--accent);
-  border-style: dotted none none none;
-  max-width: var(--max-width);
-}
+
 .container > div {
   /* display: flex;
   flex-direction: column; */

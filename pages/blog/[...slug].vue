@@ -29,7 +29,7 @@
     </main> -->
 </template>
   
-<style>
+<style scoped>
   .post{
     width: 50%;
     
@@ -38,6 +38,7 @@
   /* i wonder if this will cause issues */
   img{ 
     width: 100%;
+    
   }
 
   @media (max-width: 1000px){

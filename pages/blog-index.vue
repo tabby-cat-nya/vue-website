@@ -2,7 +2,7 @@
   <main>
     <!-- <a href="/"><-- Return Home</a> -->
     <BigButton text="<<< Return Home" href="/"/>
-    <h1>Tom's Blog</h1>
+    <h1 class="no-margin">Tom's Blog</h1>
     
     <p class="no-margin" v-if="qSupplied">Selected Tag: <strong>{{query}}</strong> <a v-if="qSupplied" href="blog-index">(Clear Search)</a></p>
     <p class="no-margin">Tag Search:
@@ -14,7 +14,7 @@
     </p>
 
     <hr>
-    <!-- <div> -->
+    <div>
       <BlogCard v-for="post in data" class="posts-list"
           :key="post.id"
           :href="post._path"
@@ -24,7 +24,7 @@
           :id="post.id"
           :tags="post.tags"
         />
-    <!-- </div> -->
+    </div>
     
 
   </main>
@@ -53,7 +53,7 @@
   var { data } = await useAsyncData('home', () => queryContent('blog').where({ tags: { $contains: query } }).sort({id:-1}).find())
 </script>
 
-<style>
+<style scoped>
   main {
     /* display: flex; */
     /* flex-direction: column; */
@@ -62,14 +62,21 @@
     margin-top: 3.5rem;
     /* gap: 0rem; */
     /* width: 80%; */
+    
   }
   
   .posts-list{
     width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
   }
 
+
+
   .no-margin{
-    margin: 0
+    margin: 0;
+    text-align: center;
   }
 
   .no-posts{

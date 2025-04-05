@@ -14,7 +14,7 @@ const props = defineProps({
     
 </template>
 
-<style>
+<style scoped>
     .button {
         background-color: #3f0064; 
         border: none;
