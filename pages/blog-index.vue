@@ -8,21 +8,22 @@
       <a href="blog-index?tag=Programming">Programming</a> - 
       <a href="blog-index?tag=Godot">Godot</a> - 
       <a href="blog-index?tag=Tech">Tech</a> - 
-      <a href="blog-index?tag=Queerness">Queerness</a> - 
-      <a class="no-posts" href="blog-index?tag=Mental Health">Mental Health</a>
+      <a href="blog-index?tag=Queerness">Queerness</a>
+      <!-- <a class="no-posts" href="blog-index?tag=Mental Health">Mental Health</a> -->
     </p>
 
     <hr>
-    <TextCard v-for="post in data"
-        :key="post.id"
-        :href="post._path"
-        :heading="post.title"
-        :subheading="post.date"
-        :description="post.description"
-        :id="post.id"
-        :tags="post.tags"
-      />
-
+    <!-- <div> -->
+      <BlogCard v-for="post in data" class="posts-list"
+          :key="post.id"
+          :href="post._path"
+          :heading="post.title"
+          :subheading="post.date"
+          :description="post.description"
+          :id="post.id"
+          :tags="post.tags"
+        />
+    <!-- </div> -->
     
 
   </main>
@@ -53,12 +54,17 @@
 
 <style>
   main {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* align-items: center; */
     padding: 2rem;
     margin-top: 3.5rem;
-    gap: 0rem;
+    /* gap: 0rem; */
+    /* width: 80%; */
+  }
+  
+  .posts-list{
+    width: 80%;
   }
 
   .no-margin{

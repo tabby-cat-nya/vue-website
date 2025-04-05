@@ -4,7 +4,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Baloo+Chettan+2:wght@400..800&display=swap');
 
 :root {
-  --bg: #2b182b;
+  --bg: #351d3a;
   --fg: white;
 
   --accent: #e17ff5;
@@ -13,30 +13,36 @@
   --max-width: 70rem;
 }
 
-html {
-  scroll-behavior: smooth;
-}
-
-body {
+body{
   background-color: var(--bg);
   color: var(--fg);
-  display: flex;
-  flex-direction: column;
-  // font-family: Comfortaa;
   font-family: "Baloo Chettan 2";
-  height: 100dvh;
-  overflow-x: hidden;
-  overflow-y: scroll;
-  width: 100dvw;
-  transition-property: background-color, color;
-  transition-duration: 250ms;
 }
-@media (prefers-color-scheme: light) {
-  body {
-    background-color: var(--fg);
-    color: var(--bg);
-  }
-}
+
+// html {
+//   scroll-behavior: smooth;
+// }
+
+// body {
+//   background-color: var(--bg);
+//   color: var(--fg);
+//   display: flex;
+//   flex-direction: column;
+//   // font-family: Comfortaa;
+//   font-family: "Baloo Chettan 2";
+//   height: 100dvh;
+//   overflow-x: hidden;
+//   overflow-y: scroll;
+//   width: 100dvw;
+//   transition-property: background-color, color;
+//   transition-duration: 250ms;
+// }
+// @media (prefers-color-scheme: light) {
+//   body {
+//     background-color: var(--fg);
+//     color: var(--bg);
+//   }
+// }
 
 a {
   color: var(--accent);
@@ -47,20 +53,20 @@ a {
   }
 }
 
-::-webkit-scrollbar {
-  width: 5px;
-}
+// ::-webkit-scrollbar {
+//   width: 5px;
+// }
 
-::-webkit-scrollbar-track {
-  background-color: var(--accent-dark);
-  border-radius: 10px;
-}
+// ::-webkit-scrollbar-track {
+//   background-color: var(--accent-dark);
+//   border-radius: 10px;
+// }
 
-::-webkit-scrollbar-thumb {
-  background: white;
-  border-radius: 10px;
+// ::-webkit-scrollbar-thumb {
+//   background: white;
+//   border-radius: 10px;
 
-  &:hover {
-    background: var(--accent);
-  }
-}
+//   &:hover {
+//     background: var(--accent);
+//   }
+// }

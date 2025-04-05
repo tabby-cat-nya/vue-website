@@ -27,7 +27,6 @@ var { data } = await useAsyncData('home', () => queryContent('blog').sort({id:-1
                   <li>linux initiate, currently using Mint 22</li>
                   <li>Favourite game engine: <Purple>Godot!</Purple></li>
                   <li>meow meow~ nya!!! :3</li>
-                  <li>dev branch test</li>
               </ul>
             </div>
         </div>
@@ -61,15 +60,14 @@ var { data } = await useAsyncData('home', () => queryContent('blog').sort({id:-1
                     src="img/portfolio.png" 
                     href="https://portfolium.com.au/Tabby" 
                 />
-                <Social 
+                <!-- <Social 
                     src="img/oldweb.png" 
                     href="https://oldweb.tabbycat.dev/" 
-                />
-                <!-- add team stingray logo which goes to discord server here  -->
+                /> -->
                 
             </Socials>
-            <h2>Tech i've got experience with:</h2>
-            <img class="" src="https://skillicons.dev/icons?i=git,androidstudio,arduino,bash,blender,cs,cloudflare,css,fediverse,github,godot,html,idea,js,linux,lua,md,netlify,nextjs,nodejs,npm,nuxtjs,obsidian,php,postgres,py,react,sass,supabase,ts,unity,unreal,vercel,vscode,vue,processing&perline=12" />
+            <!-- <h2>Tech i've got experience with:</h2>
+            <img class="" src="https://skillicons.dev/icons?i=git,androidstudio,arduino,bash,blender,cs,cloudflare,css,fediverse,github,godot,html,idea,js,linux,lua,md,netlify,nextjs,nodejs,npm,nuxtjs,obsidian,php,postgres,py,react,sass,supabase,ts,unity,unreal,vercel,vscode,vue,processing&perline=12" /> -->
         </div> 
     </div>
     <!-- <hr/> -->
@@ -120,12 +118,12 @@ var { data } = await useAsyncData('home', () => queryContent('blog').sort({id:-1
     <hr/>
     <!-- latest blog posts, link to all? -->
     <h1 class="no-margins">Latest Blog Posts</h1>
-    <a class="no-margins" href="/blog-index">View All</a>
+    
     <!-- <p>Coming Soon!</p> -->
 
-    <div class="featured-container">
+    <div class="blog-container">
       
-      <TextCard v-for="post in data"
+      <BlogCard v-for="post in data"
         :key="post.id"
         :href="post._path"
         :heading="post.title"
@@ -138,7 +136,8 @@ var { data } = await useAsyncData('home', () => queryContent('blog').sort({id:-1
       
       
     </div>
-
+    <!-- <a class="no-margins" href="/blog-index">View All >>></a> -->
+    <BigButton text="View All >>>" href="/blog-index"/>
     
      
   </main>
@@ -159,11 +158,12 @@ var { data } = await useAsyncData('home', () => queryContent('blog').sort({id:-1
   margin-right: auto; */
 }
 
-/* .featured-container{
+.blog-container{
   display: flex;
-  margin-left: 20%;
-  margin-right: 20%;
-} */
+  flex-direction: column;
+  width: 80%;
+  justify-content: center;
+}
 
 .small-image-pls {
   height: 20%;
@@ -234,30 +234,32 @@ var { data } = await useAsyncData('home', () => queryContent('blog').sort({id:-1
 
 <style>
 main {
-  display: flex;
+  /* display: flex;
   flex-direction: column;
-  align-items: center;
-  padding: 2rem;
-  margin-top: 3.5rem;
-  gap: 2rem;
+  align-items: center; */
+  /* padding: 2rem; */
+  /* margin-top: 3.5rem; */
+  /* gap: 2rem; */
 }
 hr {
   width: 100%;
-  border: 1px dashed var(--accent-dark);
+  height: 0px;
+  border: 5px  var(--accent);
+  border-style: dotted none none none;
   max-width: var(--max-width);
 }
 .container > div {
-  display: flex;
-  flex-direction: column;
-  gap: 1rem;
+  /* display: flex;
+  flex-direction: column; */
+  /* gap: 1rem; */
 }
-@media (prefers-color-scheme: light) {
+/* @media (prefers-color-scheme: light) {
   hr {
     filter: invert();
   }
-}
+} */
 
-.no-margins{
+/* .no-margins{
   margin: -10px;
-}
+} */
 </style>

@@ -59,7 +59,7 @@ useSeoMeta({
         align-items: center;
         padding: 2rem;
         margin-top: 3.5rem;
-        gap: 2rem;
+        /* gap: 2rem; */
     }
 
     .pfp{
