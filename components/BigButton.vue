@@ -11,7 +11,7 @@
   });
 </script>
 
-<style>
+<style scoped>
   .big-button{
     background-color: var(--accent);
     color: black;
