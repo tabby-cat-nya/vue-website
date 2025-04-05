@@ -27,6 +27,7 @@ var { data } = await useAsyncData('home', () => queryContent('blog').sort({id:-1
                   <li>linux initiate, currently using Mint 22</li>
                   <li>Favourite game engine: <Purple>Godot!</Purple></li>
                   <li>meow meow~ nya!!! :3</li>
+                  <li>dev branch test</li>
               </ul>
             </div>
         </div>
