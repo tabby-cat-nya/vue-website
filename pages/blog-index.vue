@@ -50,7 +50,7 @@
     // console.log('tag successful')
     qSupplied = true
   }
-  var { data } = await useAsyncData('home', () => queryContent('blog').where({ tags: { $contains: query } }).sort({id:-1}).find())
+  var { data } = await useAsyncData('home', () => queryContent('blog').where({ tags: { $contains: query },hidden: {$not : true}},).sort({id:-1}).find())
 </script>
 
 <style scoped>

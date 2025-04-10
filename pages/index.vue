@@ -8,7 +8,7 @@ useSeoMeta({
   ogDescription: "My personal website.",
 });
 
-var { data } = await useAsyncData('home', () => queryContent('blog').sort({id:-1}).limit(3).find())
+var { data } = await useAsyncData('home', () => queryContent('blog').where({hidden : {$not : true}}).sort({id:-1}).limit(3).find())
 
 </script>
 
