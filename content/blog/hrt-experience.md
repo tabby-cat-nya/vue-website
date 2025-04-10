@@ -2,7 +2,7 @@
 
 title: 'My experience with Dr Caran Cheung, Mascot Medical, NSW (MtNB) '
 description: ""
-date: '11-04-2025'
+date: '23-02-2024'
 id: 0
 tags: 'Queerness'
 hidden : true
@@ -61,3 +61,10 @@ At the next-door Priceline the bottles of estrogel were $34.95 each (lasts about
 
 
 Overall I had a really good experience with Dr Caran and highly recommend her for anyone else looking to start hrt! happy to answer questions if i missed anything, good luck out there!
+
+---
+
+# Notes since original post (11/04/2025)
+Theres a few little updates and changes that I'll mention here:
+- Just passed one year and things are going really well :3
+- Estrogen Gel is now available much cheaper if you have a health care card since it has been added to PBS
