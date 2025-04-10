@@ -68,3 +68,4 @@ Overall I had a really good experience with Dr Caran and highly recommend her fo
 Theres a few little updates and changes that I'll mention here:
 - Just passed one year and things are going really well :3
 - Estrogen Gel is now available much cheaper if you have a health care card since it has been added to PBS
+If you'd liek to ask any questions, feel free to message me on bluesky or anywhere you can find me
