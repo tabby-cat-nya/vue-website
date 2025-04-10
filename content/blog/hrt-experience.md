@@ -1,7 +1,7 @@
 ---
 
-title: 'My experience with Dr Caran Cheung, Mascot Medical, NSW (MtNB) '
-description: ""
+title: 'My experience with Dr Caran Cheung, Mascot Medical, NSW (MtNB)'
+description: "Post I originally put on Reddit about the process of starting feminising HRT through Caran Cheung at Mascot Medical"
 date: '23-02-2024'
 id: 0
 tags: 'Queerness'
