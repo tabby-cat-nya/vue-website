@@ -9,7 +9,7 @@ hidden : true
 
 ---
 
-This post was originally posted in the r/transgenerau subreddit here: https://www.reddit.com/r/transgenderau/comments/1axl4pz/my_experience_with_dr_caran_cheung_mascot_medical/ but I've deciided to make a copy of it here for archival and as an alternative to reddit :3
+This post was originally posted in the r/transgenderau subreddit here: https://www.reddit.com/r/transgenderau/comments/1axl4pz/my_experience_with_dr_caran_cheung_mascot_medical/ but I've deciided to make a copy of it here for archival and as an alternative to reddit :3
 
 ---
 
