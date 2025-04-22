@@ -36,7 +36,11 @@ var { data } = await useAsyncData('home', () => queryContent('blog').where({hidd
             <p>I've been programming since 2015 and am currently in my final year of the Games Development degree at UTS</p>
             <p>Currently im working with my group, <a href="https://teamstingray.dev">Team Stingray</a>, to finish up our uni project <a href="https://teamstingray.dev/arcane-raiders">Arcane Raiders</a> and release it on Steam! Feel free to join our <a href="https://discord.gg/3BPYMHqNve">discord server</a> if you'd like to follow along with development!</p>
             <Socials>
-                <Social 
+              <Social 
+                    src="img/bluesky.png" 
+                    href="https://bsky.app/profile/tabbycat.dev" 
+                />  
+              <Social 
                     src="img/github.svg" 
                     href="https://github.com/tabby-cat-nya" 
                 />
