@@ -154,4 +154,17 @@ My main focus was on the online leaderboard and login system, After the game jam
   .featured-container>div{
     width:30%;
   }
+
+  @media (max-width: 1000px){
+    .featured-container{
+        flex-direction: column;
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+
+    .featured-container>div{
+    width:100%;
+  }
+    
+}
 </style>
