@@ -202,11 +202,6 @@ h1{
   display: flex;
   width: 100%;
   justify-content: center;
-  
-  /* margin-left: auto;
-  margin-right: auto; */
-  /* margin-left: auto;
-  margin-right: auto; */
 }
 
 .blog-container{
