@@ -56,6 +56,7 @@ const props = defineProps<{
 
 .top-level{
   margin-right: 10px;
+  margin-bottom: 10px;
 }
 
 .card{

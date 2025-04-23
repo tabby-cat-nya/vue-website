@@ -202,7 +202,6 @@ h1{
   display: flex;
   width: 100%;
   justify-content: center;
-  margin-bottom: 5px;
   
   /* margin-left: auto;
   margin-right: auto; */
