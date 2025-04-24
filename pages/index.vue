@@ -75,22 +75,43 @@ var { data } = await useAsyncData('home', () => queryContent('blog').where({hidd
             <img class="" src="https://skillicons.dev/icons?i=git,androidstudio,arduino,bash,blender,cs,cloudflare,css,fediverse,github,godot,html,idea,js,linux,lua,md,netlify,nextjs,nodejs,npm,nuxtjs,obsidian,php,postgres,py,react,sass,supabase,ts,unity,unreal,vercel,vscode,vue,processing&perline=12" /> -->
         </div> 
     </div>
-    <!-- <hr/> -->
-    <!-- <h1>Latest Project</h1>
+    <hr/>
+    <h1>Current Projects</h1>
     <div class="featured-container">
-      <ProjectCard
-          class="fix-size-pls"
-          src="https://upload.wikimedia.org/wikipedia/en/f/f2/Pikmin_Bloom_App_icon.png"
-          href="https://bsky.app/profile/tabbycat.dev"
-          heading="Pikmin Bloom Stats"
-          description="Figuring out how the game works"
+      <ProjectCardV2
+          src=" img\shine.png"
+          title="ShineRunnersTest"
+          description="TwitchPlays game based on Shine Runners from Mariokart DS"
+          long-description=
+"Inspired by the very retro horse racing game thing thats been big on Twitter recently, this 'game' is played by watching the stream and sending commands in chat. In this case, the only user interaction is they can choose to bet fake money on a character hoping that they will win but i hope for forture projects I can make something with more actual game interation"
+          :buttons='[
+          { link: "https://www.twitch.tv/tabbycatnya", text: "Visit Twitch Channel" }
+        ]'
       />
-      <div class="featured-text">
+
+      <ProjectCardV2 
+        src="https://img.itch.zone/aW1nLzE3MzE3NDAzLnBuZw==/315x250%23c/pxmt%2BB.png"
+        title="ChronoChamber"
+        description="Complete the level before time catches up to you"
+        long-description=
+"Short experimental puzzle game where you have to plan your moves before starting each level.
+
+'The Chronos Terminal is a powerful device that executes command blocks based into it as soon as you unseal the chamber. Use it to your advantage to escape the time loop you've been caught in!'
+
+Winner of the Playmakers August Game Jam!
+
+I'll also be showcasing this at the Playmakers booth at Smash anime convention 2025 in Sydney!"
+        :buttons='[
+          { link: "https://tabby-cat-nya.itch.io/chronochamber", text: "Play on Itch.io" },
+          { link: "/chrono-chamber", text: "Landing page for Smash" }
+        ]'
+      />
+      <!-- <div class="featured-text">
         <p>Pikmin Bloom is one of the funny little geospatial games that Niantic made with Nintendo</p>
         <p>I'm trying to figure out how many of the games mechanics work in relation to event rewards and what the best way to manage pikmin and mushrooms are especially early each month</p>
         <p>Follow updates and findings on my <a href="https://bsky.app/profile/tabbycat.dev">Bluesky</a>!</p>
-      </div>
-    </div> -->
+      </div> -->
+    </div>
     <!-- seperator -->
     <hr/>
     <!-- featured projects, link to all? -->
@@ -204,6 +225,17 @@ h1{
   justify-content: center;
 }
 
+.featured-container>div{
+  width:30%;
+}
+
+@media (max-width: 1000px){
+  
+  .featured-container>div{
+    width:80%;
+    align-self: center;
+  }
+}
 .blog-container{
   display: flex;
   flex-direction: column;

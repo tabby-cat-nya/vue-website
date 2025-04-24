@@ -106,12 +106,18 @@ const props = defineProps<{
   border-color: white;
   cursor: pointer;
   
+  
+}
+
+@media (min-width: 1000px){
+  .card:hover, .content:hover{
   .content{
     visibility: visible;
   }
 
   .project-image{
     filter: brightness(40%) blur(2px);
+  }
   }
 }
 

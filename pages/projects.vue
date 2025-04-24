@@ -61,9 +61,12 @@ It's one of my most extensive works as it entirely a solo project, In addition t
 
 'The Chronos Terminal is a powerful device that executes command blocks based into it as soon as you unseal the chamber. Use it to your advantage to escape the time loop you've been caught in!'
 
-Winner of the Playmakers August Game Jam!"
+Winner of the Playmakers August Game Jam!
+
+I'll also be showcasing this at the Playmakers booth at Smash anime convention 2025 in Sydney!"
         :buttons='[
-          { link: "https://tabby-cat-nya.itch.io/chronochamber", text: "Play on Itch.io" }
+          { link: "https://tabby-cat-nya.itch.io/chronochamber", text: "Play on Itch.io" },
+          { link: "/chrono-chamber", text: "Landing page for Smash" }
         ]'
       />
 
@@ -118,6 +121,19 @@ My main focus was on the online leaderboard and login system, After the game jam
           { link: "https://teamstingray.dev/", text: "Visit https://teamstingray.dev/" }
         ]'
       />
+
+      <ProjectCardV2 
+        src=" img\racer.png"
+        title="ThreeJS Racing Game"
+        description="Simple 3D Lane racing game"
+        long-description=
+"Individual project for Computer Graphics, A simple 3D game where you drive against oncoming traffic to try and get the highest score before crashing
+
+Press Up or W to start and A/D Left/Right to change lanes, also has settings that can be changed in the top right hand corner"
+        :buttons='[
+          { link: "https://racer23.netlify.app/", text: "Play" }
+        ]'
+      />
       
     </div>
     
@@ -157,13 +173,13 @@ My main focus was on the online leaderboard and login system, After the game jam
 
   @media (max-width: 1000px){
     .featured-container{
-        flex-direction: column;
+        /* flex-direction: column;
         margin-left: 0%;
-        margin-right: 0%;
+        margin-right: 0%; */
     }
 
     .featured-container>div{
-    width:100%;
+    width:40%;
   }
     
 }
