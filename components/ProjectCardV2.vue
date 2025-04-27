@@ -3,6 +3,7 @@
     <!-- <button @click="isOpen=true">Open</button> -->
     <!-- Project Card -->
     <div @click="isOpen=true" class="card">
+      <!-- <div class="project-image"></div> -->
       <img class="project-image" :src="props.src">
       <div class="content">
           <h2>{{props.title}}</h2>
@@ -56,7 +57,7 @@ const props = defineProps<{
 
 .top-level{
   margin-right: 10px;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
 }
 
 .card{
@@ -79,6 +80,10 @@ const props = defineProps<{
 
 .project-image{
   width: 100%;
+  /* height: 100px; */
+  object-fit: cover;
+  background-color: aqua;
+  margin-bottom: -7px;
 }
 
 .content{
