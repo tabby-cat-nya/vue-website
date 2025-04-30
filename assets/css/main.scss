@@ -29,7 +29,8 @@ hr {
 
 table, th, td {
   border: 1px solid;
-  border-collapse: collapse;
+  border-collapse:collapse;
+  border-color: var(--accent);
 }
 
 // html {
