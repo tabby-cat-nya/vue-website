@@ -27,6 +27,11 @@ hr {
   max-width: var(--max-width);
 }
 
+table, th, td {
+  border: 1px solid;
+  border-collapse: collapse;
+}
+
 // html {
 //   scroll-behavior: smooth;
 // }

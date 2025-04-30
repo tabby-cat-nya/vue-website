@@ -60,4 +60,14 @@
     /* gap: 2rem; */
   }
 
+  /* ContentRenderer>table, th, td {
+    border: 1px solid;
+  } */
+  /* .post>.thingy{
+    p{
+      background-color: aqua;
+    }
+    
+  } */
+
 </style>
