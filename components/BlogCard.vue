@@ -10,7 +10,7 @@ const props = defineProps({
 </script>
 
 <template>
-    <a class="blog-card" :href="props.href">
+    <NuxtLink  class="blog-card" :to="props.href">
       <div class="blog-header">
         <h2> {{props.heading}}</h2>
         <p v-if="tags===''" class="blog-subheading">{{props.subheading}} - #{{ props.id }}</p>
@@ -21,7 +21,7 @@ const props = defineProps({
           
           <p>{{props.description}}</p>
       </div>
-    </a>
+    </NuxtLink >
     
 </template>
 

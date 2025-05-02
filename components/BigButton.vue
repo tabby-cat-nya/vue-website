@@ -1,8 +1,8 @@
 <template>
   <div class="button-box">
-    <a class="big-button" :href="props.href">
+    <NuxtLink class="big-button" :to="props.href">
       <h2>{{props.text}}</h2>
-    </a>
+    </NuxtLink >
   </div>
 </template>
 
