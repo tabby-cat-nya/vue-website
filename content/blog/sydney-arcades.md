@@ -230,7 +230,7 @@ At the moment it looks like the machine can be a little temperamental so try che
 
 Timezone always wins again
 
-Played a game of this at the Timezone Central location and found the song selection quite small - only about 50 songs, not sure if I was missing something (since it was the first time I ever played the game), if you need a save data card to access more, or if there just aren't many.
+By default the machine is limited to only a small selection of easy songs. In order to unlock "Full Mode" you need to enter a code sequence on the pads or buttons, see here: https://www.youtube.com/watch?v=LpRiN-hRrLI
 
 ### Dancerush
 | Option          | Reader Price | Real Cost        |
