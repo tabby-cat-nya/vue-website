@@ -7,7 +7,7 @@
             <h1>Tabbybox</h1>
             <a href="http://tabbybox:8096/">Jellyfin</a> • 
             <a href="http://tabbybox:1880/">Node Red</a> • 
-            <a href="http://tabbybox:1880/ui/">Node Red Dashboard</a>
+            <a href="http://tabbybox:1880/dashboard/">Node Red Dashboard</a>
 
             <h1>Links</h1>
             <a href="https://mail.google.com/mail/u/0/#inbox">E-mail</a> • 
