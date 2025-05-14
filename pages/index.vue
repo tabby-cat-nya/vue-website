@@ -54,16 +54,8 @@ var { data } = await useAsyncData('home', () => queryContent('blog').where({hidd
                     href="https://store.steampowered.com/search/?developer=Tabby"
                 />
                 <Social 
-                    src="img/linkedin.svg" 
-                    href="https://www.linkedin.com/in/tom--howarth/" 
-                />
-                <Social 
                     src="img/verticalWhite.png" 
                     href="https://teamstingray.dev" 
-                />
-                <Social 
-                    src="img/portfolio.png" 
-                    href="https://portfolium.com.au/Tabby" 
                 />
                 <!-- <Social 
                     src="img/oldweb.png" 
