@@ -134,6 +134,32 @@ Press Up or W to start and A/D Left/Right to change lanes, also has settings tha
           { link: "https://racer23.netlify.app/", text: "Play" }
         ]'
       />
+      <ProjectCardV2
+          src=" img\shine.png"
+          title="ShineRunnersTest"
+          description="TwitchPlays game based on Shine Runners from Mariokart DS"
+          long-description=
+"Inspired by the very retro horse racing game thing thats been big on Twitter recently, this 'game' is played by watching the stream and sending commands in chat. In this case, the only user interaction is they can choose to bet fake money on a character hoping that they will win but i hope for forture projects I can make something with more actual game interation"
+          :buttons='[
+          { link: "https://www.twitch.tv/tabbycatnya", text: "Visit Twitch Channel" }
+        ]'
+      />
+
+      <ProjectCardV2
+          src="https://img.itch.zone/aW1nLzIxMjI4MTM3LnBuZw==/300x240%23c/0HU9A6.png"
+          title="Channel Switcher"
+          description="Alternate your focus between all the channels to get the highest score!"
+          long-description=
+"Alternate your focus between all the channels to get the highest score!
+
+Kinda like warioware but instead of the games getting faster, you have to play more and more at the same time!
+
+Created for the Playmakers May 2025 Game Jam"
+          :buttons='[
+          { link: "https://tabby-cat-nya.itch.io/channel-switcher", text: "Play on Itch.io" },
+          { link: "https://github.com/tabby-cat-nya/channel-switcher", text: "View source code" }
+        ]'
+      />
       
     </div>
     

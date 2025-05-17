@@ -21,9 +21,8 @@ var { data } = await useAsyncData('home', () => queryContent('blog').where({hidd
             <div class="aboutme">
             <h1>About Me</h1>
               <ul>
-                  <li>21 years old, born in 2003</li>
                   <li>i use she/they pronouns</li>
-                  <li>studying games development @ UTS</li>
+                  <li>studying games development</li>
                   <li>linux initiate, currently using Mint 22</li>
                   <li>Favourite game engine: <Purple>Godot!</Purple></li>
                   <li>meow meow~ nya!!! :3</li>
@@ -33,8 +32,9 @@ var { data } = await useAsyncData('home', () => queryContent('blog').where({hidd
         <div class="right-col">
             <h1>Heyo! I'm <Purple>Tabby</Purple> 👋</h1>
             <p>I'm a Games Developer from Sydney, Australia.</p>
-            <p>I've been programming since 2015 and am currently in my final year of the Games Development degree at UTS</p>
-            <p>Currently I'm teaching Programming Fundamentals and Programming 1 at UTS as a Casual Academic, In my free time I'm working on side projects which I sometimes post about on my <a href="https://bsky.app/profile/tabbycat.dev">Bluesky page</a> </p>
+            <!-- <p>I've been programming since 2015 and am currently in my final year of the Games Development degree at UTS</p> -->
+            <!-- <p>Currently I'm teaching Programming Fundamentals and Programming 1 at UTS as a Casual Academic, In my free time I'm working on side projects which I sometimes post about on my <a href="https://bsky.app/profile/tabbycat.dev">Bluesky page</a> </p> -->
+            <p>In my free time I'm working on side projects which I sometimes post about on my <a href="https://bsky.app/profile/tabbycat.dev">Bluesky page!</a> </p>
             <!-- <p>Currently im working with my group, <a href="https://teamstingray.dev">Team Stingray</a>, to finish up our uni project <a href="https://teamstingray.dev/arcane-raiders">Arcane Raiders</a> and release it on Steam! Feel free to join our <a href="https://discord.gg/3BPYMHqNve">discord server</a> if you'd like to follow along with development!</p> -->
             <Socials>
               <Social 
@@ -71,13 +71,18 @@ var { data } = await useAsyncData('home', () => queryContent('blog').where({hidd
     <h1>Current Projects</h1>
     <div class="featured-container">
       <ProjectCardV2
-          src=" img\shine.png"
-          title="ShineRunnersTest"
-          description="TwitchPlays game based on Shine Runners from Mariokart DS"
+          src="https://img.itch.zone/aW1nLzIxMjI4MTM3LnBuZw==/300x240%23c/0HU9A6.png"
+          title="Channel Switcher"
+          description="Alternate your focus between all the channels to get the highest score!"
           long-description=
-"Inspired by the very retro horse racing game thing thats been big on Twitter recently, this 'game' is played by watching the stream and sending commands in chat. In this case, the only user interaction is they can choose to bet fake money on a character hoping that they will win but i hope for forture projects I can make something with more actual game interation"
+"Alternate your focus between all the channels to get the highest score!
+
+Kinda like warioware but instead of the games getting faster, you have to play more and more at the same time!
+
+Created for the Playmakers May 2025 Game Jam"
           :buttons='[
-          { link: "https://www.twitch.tv/tabbycatnya", text: "Visit Twitch Channel" }
+          { link: "https://tabby-cat-nya.itch.io/channel-switcher", text: "Play on Itch.io" },
+          { link: "https://github.com/tabby-cat-nya/channel-switcher", text: "View source code" }
         ]'
       />
 
