@@ -53,10 +53,10 @@ var { data } = await useAsyncData('home', () => queryContent('blog').where({hidd
                     src="img/steam.svg"
                     href="https://store.steampowered.com/search/?developer=Tabby"
                 />
-                <Social 
+                <!-- <Social 
                     src="img/verticalWhite.png" 
                     href="https://teamstingray.dev" 
-                />
+                /> -->
                 <!-- <Social 
                     src="img/oldweb.png" 
                     href="https://oldweb.tabbycat.dev/" 
