@@ -21,7 +21,7 @@ var { data } = await useAsyncData('home', () => queryContent('blog').where({hidd
             <div class="aboutme">
             <h1>About Me</h1>
               <ul>
-                  <li>i use she/they pronouns</li>
+                  <li>i use they/she pronouns</li>
                   <li>studying games development</li>
                   <li>linux initiate, currently using Mint 22</li>
                   <li>Favourite game engine: <Purple>Godot!</Purple></li>
