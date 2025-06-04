@@ -19,6 +19,9 @@
   padding: 5px;
   text-align: center;
   /* min-height: 100px; */
+  position: fixed;
+  top:0;
+  z-index:100;
 }
 
 p{
