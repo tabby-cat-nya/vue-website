@@ -5,11 +5,10 @@
 // const route=useRoute();
 // const path = computed(() =>route.path);
 // const path = ref(window.location.pathname);
-console.log("starting meow");
+// console.log("starting meow");
 // console.log(path);
 
-const url = useRequestURL()
-console.log('host name', url.hostname)
+
 
 useSeoMeta({
   title: "Home",

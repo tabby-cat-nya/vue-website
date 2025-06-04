@@ -1,5 +1,8 @@
 <script setup lang="ts">
 import { SpeedInsights } from '@vercel/speed-insights/vue';
+
+
+
 </script>
 
 <template>
@@ -10,6 +13,7 @@ import { SpeedInsights } from '@vercel/speed-insights/vue';
     <NuxtLoadingIndicator />
       <NuxtLayout>
         <!-- <Navbar /> -->
+        <DomainWarning />
         <NuxtPage />
       </NuxtLayout>
   </div>
