@@ -25,6 +25,10 @@
                 <a href="https://www.instagram.com/transhub_acon/">Transhub ACON</a> • 
                 <a href="https://www.instagram.com/climbingqts/">Climbing QTs</a> • 
                 <a href="https://www.instagram.com/twenty10nsw/">Twenty10</a> 
+
+                <h1>Goals</h1>
+                <h2>Etsy Presentations - Have 12</h2>
+                <p>🔵🔵🔵🔵🟢🟡⚫⚫⚫⚫⚫⚫⚫</p>
             </div>
             <!-- <iframe src="http://tabbybox:1880/dashboard/page1" title="node-red dashboard" height="900" class="frame" ></iframe>  -->
         </div>
