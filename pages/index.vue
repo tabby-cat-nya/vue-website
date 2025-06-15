@@ -80,18 +80,20 @@ var { data } = await useAsyncData('home', () => queryContent('blog').where({hidd
     <h1>Current Projects</h1>
     <div class="featured-container">
       <ProjectCardV2
-          src="https://img.itch.zone/aW1nLzIxMjI4MTM3LnBuZw==/300x240%23c/0HU9A6.png"
-          title="Channel Switcher"
-          description="Alternate your focus between all the channels to get the highest score!"
+          src="https://img.itch.zone/aW1nLzIxNjg5Mzg2LnBuZw==/315x250%23c/UW798S.png"
+          title="Samurai Sculpt"
+          description="the classic braintastic game, now with no difficulty ceiling"
           long-description=
-"Alternate your focus between all the channels to get the highest score!
+"To those unfamiliar, Braintastic was an education game made in Australia and used throughout a number of schools. The idea was that before getting to play the minigames, students would have to answer a number of maths or English questions. Depending on how many they got right, they would then get more or less time to play the games!
 
-Kinda like warioware but instead of the games getting faster, you have to play more and more at the same time!
+One of these games was Samurai Sculpt, a simple pattern recognition/typing game were you must type the display sequence of arrows within 5 seconds. me and some friends were feeling nostalgic and booted up an old CD-Rom to play it and some other games from the set but quickly found that the skill ceiling of this game could be reached surprisingly easily.
 
-Created for the Playmakers May 2025 Game Jam"
+So that brings me to why I made this: 1) I wanted an easy way to play it online when I'm bored and 2) I wanted to remove the skill limit of 14 tokens, Now there's no limit! if you can make it past about 20 they will start scrolling so there is truly no limit!
+
+But yeah that's the project, as you can see its not a super complete remake, the sculpting animations aren't implemented and some things like the high-scores and time bonus score don't exist either, not sure if I'll work on this more but I hope you enjoy it!"
           :buttons='[
-          { link: "https://tabby-cat-nya.itch.io/channel-switcher", text: "Play on Itch.io" },
-          { link: "https://github.com/tabby-cat-nya/channel-switcher", text: "View source code" }
+          { link: "https://tabby-cat-nya.itch.io/samurai-sculpt-remake", text: "Play on Itch.io" },
+          { link: "https://github.com/tabby-cat-nya/Samurai-Sculpt-Plus", text: "View source code" }
         ]'
       />
 
