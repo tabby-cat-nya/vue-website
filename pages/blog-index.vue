@@ -2,7 +2,7 @@
   <main>
     <!-- <a href="/"><-- Return Home</a> -->
     <BigButton text="<<< Return Home" href="/"/>
-    <h1 class="no-margin">Tom's Blog</h1>
+    <h1 class="no-margin">Tabby's Blog</h1>
     
     <p class="no-margin" v-if="qSupplied">Selected Tag: <strong>{{query}}</strong> <a v-if="qSupplied" href="blog-index">(Clear Search)</a></p>
     <p class="no-margin">Tag Search:
