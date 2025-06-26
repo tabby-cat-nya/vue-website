@@ -12,7 +12,9 @@
 
                 <h1>Links</h1>
                 <a href="https://mail.google.com/mail/u/0/#inbox">E-mail</a> • 
-                <a href="https://calendar.google.com">Calendar</a> 
+                <a href="https://calendar.google.com">Calendar</a>  • 
+                <a href="https://www.furaffinity.net/user/fuzzysparkles/">Furaffinity*</a>  • 
+                <a href="https://artfight.net/">Artfight</a> 
                 
                 <h2>Chats</h2>
                 <a href="https://web.whatsapp.com/">Whatsapp</a> • 
