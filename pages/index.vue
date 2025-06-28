@@ -99,6 +99,7 @@ This will be my third year participating in artfight, I've already joined the cr
           :buttons='[
           
         ]'
+        :badges='["godot4","prototype"]'
       />
 
       <ProjectCardV2 
@@ -117,6 +118,7 @@ I'll also be showcasing this at the Playmakers booth at Smash anime convention 2
           { link: "https://tabby-cat-nya.itch.io/chronochamber", text: "Play on Itch.io" },
           { link: "/chrono-chamber", text: "Landing page for Smash" }
         ]'
+        :badges='["godot4","gamejam"]'
       />
       <!-- <div class="featured-text">
         <p>Pikmin Bloom is one of the funny little geospatial games that Niantic made with Nintendo</p>

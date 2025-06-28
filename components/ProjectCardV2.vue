@@ -8,6 +8,12 @@
       <div class="content">
           <h2>{{props.title}}</h2>
           <p>{{props.description}}</p>
+          <div class="badges-container">
+            <!-- <Badge text="Godot" icon="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Godot_icon.svg/2048px-Godot_icon.svg.png" />
+            <Badge text="Badge2" icon="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Godot_icon.svg/2048px-Godot_icon.svg.png" />
+            <Badge text="Badge3" icon="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Godot_icon.svg/2048px-Godot_icon.svg.png" /> -->
+            <Badge v-for="(data, i) of badges" :key="i" :id="data" />
+          </div>
       </div>
     </div>
     
@@ -21,6 +27,7 @@
             :description=props.description
             :long-description=props.longDescription
             :buttons=props.buttons
+            :badges=props.badges
           />
         </div>
       </div>
@@ -39,12 +46,18 @@ export interface ButtonData {
     link: string,
 }
 
+export interface BadgeData {
+  text: string,
+  icon: string,
+}
+
 const props = defineProps<{
     title: string,
     description: string,
     longDescription?: string,
     src: string,
     buttons?: Array<ButtonData>,
+    badges?: Array<string>, //just the id's
 }>();
 
 
@@ -92,6 +105,8 @@ const props = defineProps<{
   left: 16px;
   text-align: left ;
   visibility:hidden;
+  /* font-size: 14px; */
+  margin-right: 10px;
 
   /* &:hover{
     visibility: visible;
@@ -147,5 +162,12 @@ const props = defineProps<{
   margin: 10%;
   max-height: calc(100vh - 210px);
   overflow-y: auto;
+}
+
+.badges-container{
+  display:  flex;
+  flex-direction: row;
+  gap: 5px;
+  flex-wrap: wrap;
 }
 </style>
