@@ -30,7 +30,7 @@
 
                 <h1>Goals</h1>
                 <h2>Etsy Presentations - Have 12</h2>
-                <p>🔵🔵🔵🔵🟢🟢⚫⚫⚫⚫⚫⚫⚫</p>
+                <p>🔵🔵🔵🔵🟢🟢⚫⚫⚫⚫⚫⚫</p>
 
             </div>
             <!-- <iframe src="http://tabbybox:1880/dashboard/page1" title="node-red dashboard" height="900" class="frame" ></iframe>  -->

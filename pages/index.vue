@@ -62,14 +62,11 @@ var { data } = await useAsyncData('home', () => queryContent('blog').where({hidd
                     src="img/steam.svg"
                     href="https://store.steampowered.com/search/?developer=Tabby"
                 />
-                <!-- <Social 
-                    src="img/verticalWhite.png" 
-                    href="https://teamstingray.dev" 
-                /> -->
-                <!-- <Social 
-                    src="img/oldweb.png" 
-                    href="https://oldweb.tabbycat.dev/" 
-                /> -->
+                <Social
+                    src="img/furry.png"
+                    href="https://www.furaffinity.net/user/fuzzysparkles/"
+                />
+                
                 
             </Socials>
             <!-- <h2>Tech i've got experience with:</h2>
@@ -80,20 +77,27 @@ var { data } = await useAsyncData('home', () => queryContent('blog').where({hidd
     <h1>Current Projects</h1>
     <div class="featured-container">
       <ProjectCardV2
-          src="https://img.itch.zone/aW1nLzIxNjg5Mzg2LnBuZw==/315x250%23c/UW798S.png"
-          title="Samurai Sculpt"
-          description="the classic braintastic game, now with no difficulty ceiling"
+          src="img\newProject.png"
+          title="Artfight 2025"
+          description="Annual month long art gifting event"
           long-description=
-"To those unfamiliar, Braintastic was an education game made in Australia and used throughout a number of schools. The idea was that before getting to play the minigames, students would have to answer a number of maths or English questions. Depending on how many they got right, they would then get more or less time to play the games!
+"Artfight is an annual art game that runs every July. Players join one of two teams then earn points by 'attacking' other players (generally on the other team) by drawing their characters. While it is sort of a competition, its not really about the points or 'winning' artfight. The main focus is making alot of cool art and maybe receiving some in return :3
 
-One of these games was Samurai Sculpt, a simple pattern recognition/typing game were you must type the display sequence of arrows within 5 seconds. me and some friends were feeling nostalgic and booted up an old CD-Rom to play it and some other games from the set but quickly found that the skill ceiling of this game could be reached surprisingly easily.
-
-So that brings me to why I made this: 1) I wanted an easy way to play it online when I'm bored and 2) I wanted to remove the skill limit of 14 tokens, Now there's no limit! if you can make it past about 20 they will start scrolling so there is truly no limit!
-
-But yeah that's the project, as you can see its not a super complete remake, the sculpting animations aren't implemented and some things like the high-scores and time bonus score don't exist either, not sure if I'll work on this more but I hope you enjoy it!"
+This will be my third year participating in artfight, I've already joined the crystal team so feel free to check out my profile if you want to attack me or have a look around art fight, but remember, it only goes until the end of July, don't miss your chance to join in!"
           :buttons='[
-          { link: "https://tabby-cat-nya.itch.io/samurai-sculpt-remake", text: "Play on Itch.io" },
-          { link: "https://github.com/tabby-cat-nya/Samurai-Sculpt-Plus", text: "View source code" }
+          { link: "https://artfight.net/~tabby_cat", text: "Check out my profile!" },
+          { link: "https://artfight.net/info/about", text: "About Artfight" }
+        ]'
+      />
+
+      <ProjectCardV2
+          src="img\newProject.png"
+          title="Super Lunar (Working Title)"
+          description="Cross between lunar lander and balloon trip breeze"
+          long-description=
+"Im working on a new prototype game idea, no idea if it will come to anything but figured i might aswell try it out. Basically its a cross between balloon Trip Breeze from Nintendo Land and Lunar Lander - the arcade game. Players will have to navigate their fragile little ship around obstacles with limited fuel reserves to reach the end. "
+          :buttons='[
+          
         ]'
       />
 
