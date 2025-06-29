@@ -63,6 +63,10 @@ var { data } = await useAsyncData('home', () => queryContent('blog').where({hidd
                     href="https://store.steampowered.com/search/?developer=Tabby"
                 />
                 <Social
+                    src="img/backlogged.png"
+                    href="https://backloggd.com/u/tabby_cat/games/user-rating/type:played"
+                />
+                <Social
                     src="img/furry.png"
                     href="https://www.furaffinity.net/user/fuzzysparkles/"
                 />
