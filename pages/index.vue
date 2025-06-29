@@ -154,6 +154,7 @@ On the 19th of February the game was released and since then we have had over 42
           { link: "https://discord.com/invite/3BPYMHqNve", text: "Join Discord" },
           { link: "https://cookiespl.itch.io/arcane-raiders", text: "View Itch.io page (Outdated)" }
         ]'
+        :badges='[ "godot4", "steam"]'
       />
 
       <ProjectCardV2 
@@ -168,6 +169,7 @@ At the end of the game jam our game received the Most Intuitive Game award."
         :buttons='[
           { link: "https://clevertop.itch.io/kitten-calamity", text: "Play on Itch.io" }
         ]'
+        :badges='["godot4","gamejam"]'
       />
 
       <ProjectCardV2 
@@ -181,6 +183,7 @@ It's one of my most extensive works as it entirely a solo project, In addition t
         :buttons='[
           { link: "https://clevertop.itch.io/temple-of-the-silver-dragon", text: "Play on Itch.io" }
         ]'
+        :badges='["unity","airtable"]'
       />
       
     </div>

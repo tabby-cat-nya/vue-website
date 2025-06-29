@@ -23,6 +23,7 @@ On the 19th of February the game was released and since then we have had over 42
           { link: "https://discord.com/invite/3BPYMHqNve", text: "Join Discord" },
           { link: "https://cookiespl.itch.io/arcane-raiders", text: "View Itch.io page (Outdated)" }
         ]'
+        :badges='[ "godot4", "steam"]'
       />
 
       <ProjectCardV2 
@@ -37,6 +38,7 @@ At the end of the game jam our game received the Most Intuitive Game award."
         :buttons='[
           { link: "https://clevertop.itch.io/kitten-calamity", text: "Play on Itch.io" }
         ]'
+        :badges='["godot4","gamejam"]'
       />
 
       <ProjectCardV2 
@@ -50,6 +52,7 @@ It's one of my most extensive works as it entirely a solo project, In addition t
         :buttons='[
           { link: "https://clevertop.itch.io/temple-of-the-silver-dragon", text: "Play on Itch.io" }
         ]'
+        :badges='["unity","airtable"]'
       />
 
       <ProjectCardV2 
@@ -68,6 +71,7 @@ I'll also be showcasing this at the Playmakers booth at Smash anime convention 2
           { link: "https://tabby-cat-nya.itch.io/chronochamber", text: "Play on Itch.io" },
           { link: "/chrono-chamber", text: "Landing page for Smash" }
         ]'
+        :badges='["godot4","gamejam"]'
       />
 
       <ProjectCardV2 
@@ -81,6 +85,7 @@ I implemented the core mechanic of the inside and outside views of the ship and 
         :buttons='[
           { link: "https://ethan-lucas.itch.io/starship-scramble", text: "Play on Itch.io" }
         ]'
+        :badges='["unity"]'
       />
 
       <ProjectCardV2 
@@ -96,6 +101,7 @@ My main focus was on the online leaderboard and login system, After the game jam
         :buttons='[
           { link: "https://itch.io/jam/pixel-jam-2024/rate/2469428", text: "Play on Itch.io" }
         ]'
+        :badges='["godot4","gamejam","airtable"]'
       />
 
       <ProjectCardV2 
@@ -109,6 +115,7 @@ My main focus was on the online leaderboard and login system, After the game jam
         :buttons='[
           { link: "https://doodle-jump-nya.netlify.app/", text: "Play" }
         ]'
+        :badges='["threejs"]'
       />
 
       <ProjectCardV2 
@@ -120,6 +127,7 @@ My main focus was on the online leaderboard and login system, After the game jam
         :buttons='[
           { link: "https://teamstingray.dev/", text: "Visit https://teamstingray.dev/" }
         ]'
+        :badges='["vue","nuxt"]'
       />
 
       <ProjectCardV2 
@@ -133,6 +141,7 @@ Press Up or W to start and A/D Left/Right to change lanes, also has settings tha
         :buttons='[
           { link: "https://racer23.netlify.app/", text: "Play" }
         ]'
+        :badges='["threejs"]'
       />
       <ProjectCardV2
           src=" img\shine.png"
@@ -143,6 +152,7 @@ Press Up or W to start and A/D Left/Right to change lanes, also has settings tha
           :buttons='[
           { link: "https://www.twitch.tv/tabbycatnya", text: "Visit Twitch Channel" }
         ]'
+        :badges='["godot4","prototype"]'
       />
 
       <ProjectCardV2
@@ -159,6 +169,7 @@ Created for the Playmakers May 2025 Game Jam"
           { link: "https://tabby-cat-nya.itch.io/channel-switcher", text: "Play on Itch.io" },
           { link: "https://github.com/tabby-cat-nya/channel-switcher", text: "View source code" }
         ]'
+        :badges='["godot4","gamejam"]'
       />
 
       <ProjectCardV2
@@ -177,6 +188,7 @@ But yeah that's the project, as you can see its not a super complete remake, the
           { link: "https://tabby-cat-nya.itch.io/samurai-sculpt-remake", text: "Play on Itch.io" },
           { link: "https://github.com/tabby-cat-nya/Samurai-Sculpt-Plus", text: "View source code" }
         ]'
+        :badges='["godot4","prototype"]'
       />
       
     </div>
