@@ -81,7 +81,7 @@ var { data } = await useAsyncData('home', () => queryContent('blog').where({hidd
     <h1>Current Projects</h1>
     <div class="featured-container">
       <ProjectCardV2
-          src="img\newProject.png"
+          src="img\artfight.png"
           title="Artfight 2025"
           description="Annual month long art gifting event"
           long-description=
@@ -95,7 +95,7 @@ This will be my third year participating in artfight, I've already joined the cr
       />
 
       <ProjectCardV2
-          src="img\newProject.png"
+          src="img\lunar.png"
           title="Super Lunar (Working Title)"
           description="Cross between lunar lander and balloon trip breeze"
           long-description=
@@ -106,24 +106,7 @@ This will be my third year participating in artfight, I've already joined the cr
         :badges='["godot4","prototype"]'
       />
 
-      <ProjectCardV2 
-        src="https://img.itch.zone/aW1nLzE3MzE3NDAzLnBuZw==/315x250%23c/pxmt%2BB.png"
-        title="ChronoChamber"
-        description="Complete the level before time catches up to you"
-        long-description=
-"Short experimental puzzle game where you have to plan your moves before starting each level.
-
-'The Chronos Terminal is a powerful device that executes command blocks based into it as soon as you unseal the chamber. Use it to your advantage to escape the time loop you've been caught in!'
-
-Winner of the Playmakers August Game Jam!
-
-I'll also be showcasing this at the Playmakers booth at Smash anime convention 2025 in Sydney!"
-        :buttons='[
-          { link: "https://tabby-cat-nya.itch.io/chronochamber", text: "Play on Itch.io" },
-          { link: "/chrono-chamber", text: "Landing page for Smash" }
-        ]'
-        :badges='["godot4","gamejam"]'
-      />
+      
       <!-- <div class="featured-text">
         <p>Pikmin Bloom is one of the funny little geospatial games that Niantic made with Nintendo</p>
         <p>I'm trying to figure out how many of the games mechanics work in relation to event rewards and what the best way to manage pikmin and mushrooms are especially early each month</p>

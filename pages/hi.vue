@@ -27,12 +27,10 @@ useSeoMeta({
 
         'The Chronos Terminal is a powerful device that executes command blocks based into it as soon as you unseal the chamber. Use it to your advantage to escape the time loop you've been caught in!'
 
-        Winner of the Playmakers August Game Jam!
-
-        I'll also be showcasing this at the Playmakers booth at Smash anime convention 2025 in Sydney!"
+        - Winner of the Playmakers August Game Jam! 
+        - Showcased at the playmakers booth for Smash 2025!"
                 :buttons='[
-                { link: "https://tabby-cat-nya.itch.io/chronochamber", text: "Play on Itch.io" },
-                { link: "/chrono-chamber", text: "Landing page for Smash" }
+                { link: "https://tabby-cat-nya.itch.io/chronochamber", text: "Play on Itch.io" }
                 ]'
                 :badges='["godot4","gamejam"]'
             />

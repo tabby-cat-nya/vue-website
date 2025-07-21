@@ -56,23 +56,21 @@ It's one of my most extensive works as it entirely a solo project, In addition t
       />
 
       <ProjectCardV2 
-        src="https://img.itch.zone/aW1nLzE3MzE3NDAzLnBuZw==/315x250%23c/pxmt%2BB.png"
-        title="ChronoChamber"
-        description="Complete the level before time catches up to you"
-        long-description=
-"Short experimental puzzle game where you have to plan your moves before starting each level.
+                src="https://img.itch.zone/aW1nLzE3MzE3NDAzLnBuZw==/315x250%23c/pxmt%2BB.png"
+                title="ChronoChamber"
+                description="Complete the level before time catches up to you"
+                long-description=
+        "Short experimental puzzle game where you have to plan your moves before starting each level.
 
-'The Chronos Terminal is a powerful device that executes command blocks based into it as soon as you unseal the chamber. Use it to your advantage to escape the time loop you've been caught in!'
+        'The Chronos Terminal is a powerful device that executes command blocks based into it as soon as you unseal the chamber. Use it to your advantage to escape the time loop you've been caught in!'
 
-Winner of the Playmakers August Game Jam!
-
-I'll also be showcasing this at the Playmakers booth at Smash anime convention 2025 in Sydney!"
-        :buttons='[
-          { link: "https://tabby-cat-nya.itch.io/chronochamber", text: "Play on Itch.io" },
-          { link: "/chrono-chamber", text: "Landing page for Smash" }
-        ]'
-        :badges='["godot4","gamejam"]'
-      />
+        - Winner of the Playmakers August Game Jam! 
+        - Showcased at the playmakers booth for Smash 2025!"
+                :buttons='[
+                { link: "https://tabby-cat-nya.itch.io/chronochamber", text: "Play on Itch.io" }
+                ]'
+                :badges='["godot4","gamejam"]'
+            />
 
       <ProjectCardV2 
         src="https://img.itch.zone/aW1nLzEyNjA2MDI1LnBuZw==/315x250%23c/vaNWSF.png"
