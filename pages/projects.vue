@@ -5,6 +5,39 @@
     <hr>
     <div class="featured-container">
       <ProjectCardV2
+          src="img\artfight.png"
+          title="Artfight 2025"
+          description="Annual month long art gifting event"
+          long-description=
+"Artfight is an annual art game that runs every July. Players join one of two teams then earn points by 'attacking' other players (generally on the other team) by drawing their characters. While it is sort of a competition, its not really about the points or 'winning' artfight. The main focus is making alot of cool art and maybe receiving some in return :3
+
+This will be my third year participating in artfight, I've already joined the crystal team so feel free to check out my profile if you want to attack me or have a look around art fight, but remember, it only goes until the end of July, don't miss your chance to join in!"
+          :buttons='[
+          { link: "https://artfight.net/~tabby_cat", text: "Check out my profile!" },
+          { link: "https://artfight.net/info/about", text: "About Artfight" }
+        ]'
+      />
+
+      <ProjectCardV2
+          src="https://img.itch.zone/aW1nLzIxNjg5Mzg2LnBuZw==/315x250%23c/UW798S.png"
+          title="Samurai Sculpt"
+          description="the classic braintastic game, now with no difficulty ceiling"
+          long-description=
+"To those unfamiliar, Braintastic was an education game made in Australia and used throughout a number of schools. The idea was that before getting to play the minigames, students would have to answer a number of maths or English questions. Depending on how many they got right, they would then get more or less time to play the games!
+
+One of these games was Samurai Sculpt, a simple pattern recognition/typing game were you must type the display sequence of arrows within 5 seconds. me and some friends were feeling nostalgic and booted up an old CD-Rom to play it and some other games from the set but quickly found that the skill ceiling of this game could be reached surprisingly easily.
+
+So that brings me to why I made this: 1) I wanted an easy way to play it online when I'm bored and 2) I wanted to remove the skill limit of 14 tokens, Now there's no limit! if you can make it past about 20 they will start scrolling so there is truly no limit!
+
+But yeah that's the project, as you can see its not a super complete remake, the sculpting animations aren't implemented and some things like the high-scores and time bonus score don't exist either, not sure if I'll work on this more but I hope you enjoy it!"
+          :buttons='[
+          { link: "https://tabby-cat-nya.itch.io/samurai-sculpt-remake", text: "Play on Itch.io" },
+          { link: "https://github.com/tabby-cat-nya/Samurai-Sculpt-Plus", text: "View source code" }
+        ]'
+        :badges='["godot4","prototype"]'
+      />
+
+      <ProjectCardV2
         src="https://img.itch.zone/aW1nLzE2Mjg0ODg2LnBuZw==/315x250%23c/6FRKz0.png"
         title="Arcane Raiders"
         description="Fight to the top of the tower with up to 4 players and an arsenal of powerful spells! Now available to play on Steam!"
@@ -170,24 +203,7 @@ Created for the Playmakers May 2025 Game Jam"
         :badges='["godot4","gamejam"]'
       />
 
-      <ProjectCardV2
-          src="https://img.itch.zone/aW1nLzIxNjg5Mzg2LnBuZw==/315x250%23c/UW798S.png"
-          title="Samurai Sculpt"
-          description="the classic braintastic game, now with no difficulty ceiling"
-          long-description=
-"To those unfamiliar, Braintastic was an education game made in Australia and used throughout a number of schools. The idea was that before getting to play the minigames, students would have to answer a number of maths or English questions. Depending on how many they got right, they would then get more or less time to play the games!
-
-One of these games was Samurai Sculpt, a simple pattern recognition/typing game were you must type the display sequence of arrows within 5 seconds. me and some friends were feeling nostalgic and booted up an old CD-Rom to play it and some other games from the set but quickly found that the skill ceiling of this game could be reached surprisingly easily.
-
-So that brings me to why I made this: 1) I wanted an easy way to play it online when I'm bored and 2) I wanted to remove the skill limit of 14 tokens, Now there's no limit! if you can make it past about 20 they will start scrolling so there is truly no limit!
-
-But yeah that's the project, as you can see its not a super complete remake, the sculpting animations aren't implemented and some things like the high-scores and time bonus score don't exist either, not sure if I'll work on this more but I hope you enjoy it!"
-          :buttons='[
-          { link: "https://tabby-cat-nya.itch.io/samurai-sculpt-remake", text: "Play on Itch.io" },
-          { link: "https://github.com/tabby-cat-nya/Samurai-Sculpt-Plus", text: "View source code" }
-        ]'
-        :badges='["godot4","prototype"]'
-      />
+      
       
     </div>
     
