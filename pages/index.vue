@@ -82,7 +82,7 @@ var { data } = await useAsyncData('home', () => queryContent('blog').where({hidd
     <div class="featured-container">
       <ProjectCardV2
           src="img\newProject.png"
-          title="Upcoming GDS2 Project"
+          title="Project Bunker (Working Title)"
           description="Game Design Studio 2 Project"
           long-description=
 "I'll be working with a group to make a game over the duration of the Spring session at UTS"
@@ -91,7 +91,7 @@ var { data } = await useAsyncData('home', () => queryContent('blog').where({hidd
 
       <ProjectCardV2
           src="img\newProject.png"
-          title="Upcoming SGS Project"
+          title="Wanderstep (Working Title)"
           description="Serious Games and Gamification Studio Project"
           long-description=
 "I'll be making a game that is designed to be more than just entertaining to play, Will update with more details as I hone in on my project but currently thinking about doing some sort of game focused on walking around in the real world to earn you resources/discoveries you can use in-game. Something like the 3DS play coin system!
