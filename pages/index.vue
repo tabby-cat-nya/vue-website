@@ -78,7 +78,7 @@ var { data } = await useAsyncData('home', () => queryContent('blog').where({hidd
         </div> 
     </div>
     <hr/>
-    <h1>Current Projects</h1>
+    <h1>Current Projects (I have too many 💀)</h1>
     <div class="featured-container">
       <ProjectCardV2
           src="img\newProject.png"
@@ -86,7 +86,7 @@ var { data } = await useAsyncData('home', () => queryContent('blog').where({hidd
           description="Game Design Studio 2 Project"
           long-description=
 "I'll be working with a group to make a game over the duration of the Spring session at UTS"
-          
+          :badges='["unity"]'
       />
 
       <ProjectCardV2
@@ -97,7 +97,7 @@ var { data } = await useAsyncData('home', () => queryContent('blog').where({hidd
 "I'll be making a game that is designed to be more than just entertaining to play, Will update with more details as I hone in on my project but currently thinking about doing some sort of game focused on walking around in the real world to earn you resources/discoveries you can use in-game. Something like the 3DS play coin system!
 
 Will be working on it throughout the Spring session at UTS"
-          
+          :badges='["godot4"]'
       />
 
       
@@ -114,7 +114,18 @@ Will be working on it throughout the Spring session at UTS"
         :badges='["godot4","prototype"]'
       />
 
-      
+      <ProjectCardV2
+          src="img\newProject.png"
+          title="Snake (Working Title)"
+          description="Game for the SXSW Snakejam!"
+          long-description=
+"I'm making a game for the SXSW Snakejam (It's a gamejam with the theme 'Snake'!)"
+          :buttons='[
+          { link: "https://itch.io/jam/snakejam", text:"Gamejam Page"}
+        ]'
+        :badges='["godot4","gamejam"]'
+      />
+
       <!-- <div class="featured-text">
         <p>Pikmin Bloom is one of the funny little geospatial games that Niantic made with Nintendo</p>
         <p>I'm trying to figure out how many of the games mechanics work in relation to event rewards and what the best way to manage pikmin and mushrooms are especially early each month</p>
