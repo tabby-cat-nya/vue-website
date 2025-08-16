@@ -81,7 +81,7 @@ var { data } = await useAsyncData('home', () => queryContent('blog').where({hidd
     <h1>Current Projects (I have too many 💀)</h1>
     <div class="featured-container">
       <ProjectCardV2
-          src="img\newProject.png"
+          src="img\bunkerVEarly.png"
           title="Project Bunker (Working Title)"
           description="Game Design Studio 2 Project"
           long-description=
@@ -98,6 +98,9 @@ var { data } = await useAsyncData('home', () => queryContent('blog').where({hidd
 
 Will be working on it throughout the Spring session at UTS"
           :badges='["godot4"]'
+          :buttons='[
+            {link:"https://docs.google.com/document/d/1HYT-nEM4QSTdPx3GaNz3OMnsmYUCQp3SfUh37iGM1Gk/edit?usp=sharing",text:"Assignment 1: Short Proposal (WIP)"}
+          ]'
       />
 
       
@@ -115,7 +118,7 @@ Will be working on it throughout the Spring session at UTS"
       />
 
       <ProjectCardV2
-          src="img\newProject.png"
+          src="img\snakeVEarly.png"
           title="Snake (Working Title)"
           description="Game for the SXSW Snakejam!"
           long-description=
