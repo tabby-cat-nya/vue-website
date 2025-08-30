@@ -87,6 +87,9 @@ var { data } = await useAsyncData('home', () => queryContent('blog').where({hidd
           long-description=
 "I'll be working with a group to make a game over the duration of the Spring session at UTS"
           :badges='["unity"]'
+          :buttons= '[
+            {link:"https://tabby-cat-nya.itch.io/lockdown-island",text:"Itch.io Page"}
+          ]'
       />
 
       <ProjectCardV2
