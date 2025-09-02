@@ -122,12 +122,13 @@ Will be working on it throughout the Spring session at UTS"
 
       <ProjectCardV2
           src="img\snakeVEarly.png"
-          title="Snake (Working Title)"
+          title="Snake's Intern"
           description="Game for the SXSW Snakejam!"
           long-description=
 "I'm making a game for the SXSW Snakejam (It's a gamejam with the theme 'Snake'!)"
           :buttons='[
           { link: "https://itch.io/jam/snakejam", text:"Gamejam Page"}
+          { link: "https://tabby-cat-nya.itch.io/snakes-intern", text:"Play on Itch.io (soon)"}
         ]'
         :badges='["godot4","gamejam"]'
       />
