@@ -34,6 +34,7 @@ var { data } = await useAsyncData('home', () => queryContent('blog').where({hidd
                   <li>studying games development</li>
                   <li>linux initiate, currently using Mint 22</li>
                   <li>Favourite game engine: <Purple>Godot!</Purple></li>
+                  <li>Terrified of big numbers</li>
                   <li>meow meow~ nya!!! :3</li>
               </ul>
             </div>
