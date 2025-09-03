@@ -82,7 +82,7 @@ var { data } = await useAsyncData('home', () => queryContent('blog').where({hidd
     <h1>Current Projects (I have too many 💀)</h1>
     <div class="featured-container">
       <ProjectCardV2
-          src="img\bunkerVEarly.png"
+          src="https://img.itch.zone/aW1nLzIyOTc0OTQ5LnBuZw==/315x250%23c/RVYwV5.png"
           title="Project Bunker (Working Title)"
           description="Game Design Studio 2 Project"
           long-description=
@@ -122,14 +122,14 @@ Will be working on it throughout the Spring session at UTS"
       />
 
       <ProjectCardV2
-          src="img\snakeVEarly.png"
-          title="Snake's Intern"
+          src="https://img.itch.zone/aW1nLzIzMDI0NzM4LnBuZw==/315x250%23c/nl2dVU.png"
+          title="Snake's Braincell"
           description="Game for the SXSW Snakejam!"
           long-description=
 "I'm making a game for the SXSW Snakejam (It's a gamejam with the theme 'Snake'!)"
           :buttons='[
           { link: "https://itch.io/jam/snakejam", text:"Gamejam Page"},
-          { link: "https://tabby-cat-nya.itch.io/snakes-intern", text:"Play on Itch.io (soon)"}
+          { link: "https://tabby-cat-nya.itch.io/snakes-braincell", text:"Play on Itch.io"}
         ]'
         :badges='["godot4","gamejam"]'
       />
