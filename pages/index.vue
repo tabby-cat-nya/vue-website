@@ -83,13 +83,13 @@ var { data } = await useAsyncData('home', () => queryContent('blog').where({hidd
     <div class="featured-container">
       <ProjectCardV2
           src="https://img.itch.zone/aW1nLzIyOTc0OTQ5LnBuZw==/315x250%23c/RVYwV5.png"
-          title="Project Bunker (Working Title)"
+          title="Lockdowwn Island"
           description="Game Design Studio 2 Project"
           long-description=
 "I'll be working with a group to make a game over the duration of the Spring session at UTS"
           :badges='["unity"]'
           :buttons= '[
-            {link:"https://tabby-cat-nya.itch.io/lockdown-island",text:"Itch.io Page"}
+            {link:"https://tabby-cat-nya.itch.io/lockdown-island",text:"Play on Itch.io"}
           ]'
       />
 
@@ -103,7 +103,7 @@ var { data } = await useAsyncData('home', () => queryContent('blog').where({hidd
 Will be working on it throughout the Spring session at UTS"
           :badges='["godot4"]'
           :buttons='[
-            {link:"https://docs.google.com/document/d/1HYT-nEM4QSTdPx3GaNz3OMnsmYUCQp3SfUh37iGM1Gk/edit?usp=sharing",text:"Assignment 1: Short Proposal (WIP)"}
+            {link:"https://docs.google.com/document/d/1HYT-nEM4QSTdPx3GaNz3OMnsmYUCQp3SfUh37iGM1Gk/edit?usp=sharing",text:"Assignment 1: Short Proposal"}
           ]'
       />
 
