@@ -5,6 +5,19 @@
     <hr>
     <div class="featured-container">
       <ProjectCardV2
+          src="https://img.itch.zone/aW1nLzIzMDI0NzM4LnBuZw==/315x250%23c/nl2dVU.png"
+          title="Snake's Braincell"
+          description="Game for the SXSW Snakejam!"
+          long-description=
+"I'm making a game for the SXSW Snakejam (It's a gamejam with the theme 'Snake'!)"
+          :buttons='[
+          { link: "https://itch.io/jam/snakejam", text:"Gamejam Page"},
+          { link: "https://tabby-cat-nya.itch.io/snakes-braincell", text:"Play on Itch.io"}
+        ]'
+        :badges='["godot4","gamejam"]'
+      />
+      
+      <ProjectCardV2
           src="img\artfight.png"
           title="Artfight 2025"
           description="Annual month long art gifting event"

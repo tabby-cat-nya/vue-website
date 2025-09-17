@@ -79,7 +79,7 @@ var { data } = await useAsyncData('home', () => queryContent('blog').where({hidd
         </div> 
     </div>
     <hr/>
-    <h1>Current Projects (I have too many 💀)</h1>
+    <h1>Current Projects</h1>
     <div class="featured-container">
       <ProjectCardV2
           src="https://img.itch.zone/aW1nLzIyOTc0OTQ5LnBuZw==/315x250%23c/RVYwV5.png"
@@ -122,18 +122,7 @@ Will be working on it throughout the Spring session at UTS"
         :badges='["godot4","prototype"]'
       />
 
-      <ProjectCardV2
-          src="https://img.itch.zone/aW1nLzIzMDI0NzM4LnBuZw==/315x250%23c/nl2dVU.png"
-          title="Snake's Braincell"
-          description="Game for the SXSW Snakejam!"
-          long-description=
-"I'm making a game for the SXSW Snakejam (It's a gamejam with the theme 'Snake'!)"
-          :buttons='[
-          { link: "https://itch.io/jam/snakejam", text:"Gamejam Page"},
-          { link: "https://tabby-cat-nya.itch.io/snakes-braincell", text:"Play on Itch.io"}
-        ]'
-        :badges='["godot4","gamejam"]'
-      />
+      
 
       <!-- <div class="featured-text">
         <p>Pikmin Bloom is one of the funny little geospatial games that Niantic made with Nintendo</p>
