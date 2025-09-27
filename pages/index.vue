@@ -96,7 +96,7 @@ var { data } = await useAsyncData('home', () => queryContent('blog').where({hidd
       />
 
       <ProjectCardV2
-          src="img\newProject.png"
+          src="img\wanderstep.png"
           title="Wanderstep (Working Title)"
           description="Serious Games and Gamification Studio Project"
           long-description=
