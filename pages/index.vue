@@ -105,7 +105,8 @@ var { data } = await useAsyncData('home', () => queryContent('blog').where({hidd
 Will be working on it throughout the Spring session at UTS"
           :badges='["godot4"]'
           :buttons='[
-            {link:"Wanderstep.apk", text:"Download Prototype"},
+            {link:"Wanderstep.apk", text:"Download Playtest"},
+            {link:"Wanderstep Playtester Info.pdf", text:"Download Playtest Info"},
             {link:"https://docs.google.com/document/d/1HYT-nEM4QSTdPx3GaNz3OMnsmYUCQp3SfUh37iGM1Gk/edit?usp=sharing",text:"Assignment 1: Short Proposal"},
             {link:"https://docs.google.com/document/d/14l9WF36ocNv4jaVuC5-FPZjTsCSumW_3p9zyYjCSVrQ/edit?usp=sharing", text:"Assignment 2: Comprehensive Proposal"},
             {link:"https://docs.google.com/document/d/1CYbqhztFOfS7OEkI66DwDH_zMVREhKGkT_vJSywR5Zc/edit?usp=sharing", text:"Assignment 3: Proof of Concept Document"},
