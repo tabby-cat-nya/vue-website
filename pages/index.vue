@@ -84,33 +84,15 @@ var { data } = await useAsyncData('home', () => queryContent('blog').where({hidd
     <h1>Current Projects</h1>
     <div class="featured-container">
       <ProjectCardV2
-          src="https://img.itch.zone/aW1nLzIyOTc0OTQ5LnBuZw==/315x250%23c/RVYwV5.png"
-          title="Lockdowwn Island"
-          description="Game Design Studio 2 Project"
+          src="img\fabcatAlpha.png"
+          title="Fabcat"
+          description="Fabsoc Discord Bot"
           long-description=
-"I'll be working with a group to make a game over the duration of the Spring session at UTS"
-          :badges='["unity"]'
-          :buttons= '[
-            {link:"https://tabby-cat-nya.itch.io/lockdown-island",text:"Play on Itch.io"}
-          ]'
-      />
-
-      <ProjectCardV2
-          src="img\wanderstep.png"
-          title="Wanderstep (Working Title)"
-          description="Serious Games and Gamification Studio Project"
-          long-description=
-"I'll be making a game that is designed to be more than just entertaining to play, Will update with more details as I hone in on my project but currently thinking about doing some sort of game focused on walking around in the real world to earn you resources/discoveries you can use in-game. Something like the 3DS play coin system!
-
-Will be working on it throughout the Spring session at UTS"
+"Discord bot I programmed for fabrication society to help manage the status of the printers and track the inventory of spools"
           :badges='["godot4"]'
-          :buttons='[
-            {link:"Wanderstep.apk", text:"Download Playtest"},
-            {link:"Wanderstep Playtester Info.pdf", text:"Download Playtest Info"},
-            {link:"https://docs.google.com/document/d/1HYT-nEM4QSTdPx3GaNz3OMnsmYUCQp3SfUh37iGM1Gk/edit?usp=sharing",text:"Assignment 1: Short Proposal"},
-            {link:"https://docs.google.com/document/d/14l9WF36ocNv4jaVuC5-FPZjTsCSumW_3p9zyYjCSVrQ/edit?usp=sharing", text:"Assignment 2: Comprehensive Proposal"},
-            {link:"https://docs.google.com/document/d/1CYbqhztFOfS7OEkI66DwDH_zMVREhKGkT_vJSywR5Zc/edit?usp=sharing", text:"Assignment 3: Proof of Concept Document"},
-            {link:"https://docs.google.com/document/d/1xH3L_i8a8sQh1xZ6w49ix8BRBNXq03bj-uUSwjRfVyY/edit?usp=sharing", text:"Assignment 4: Research Report"},
+          :buttons= '[
+            {link:"http://tiny.cc/FabSocDiscord",text:"Join Fabsoc"},
+            {link:"https://utsfabsoc.github.io/Docs/Technician-Zone/Fabcat-Discord-Bot",text:"Read the Docs"},
           ]'
       />
 
