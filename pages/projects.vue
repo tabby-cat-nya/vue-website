@@ -21,9 +21,11 @@
           title="Wanderstep (Working Title)"
           description="Serious Games and Gamification Studio Project"
           long-description=
-"I'll be making a game that is designed to be more than just entertaining to play, Will update with more details as I hone in on my project but currently thinking about doing some sort of game focused on walking around in the real world to earn you resources/discoveries you can use in-game. Something like the 3DS play coin system!
+"Serious game inspired by streetpass and the play coin system on the Nintendo 3DS. Collect coins by walking, crystals by completing workouts and spend your resources on hiring and training fighters to delve into the ruins
 
-Will be working on it throughout the Spring session at UTS"
+Completed as part of Serious Games and Gamification Studio at UTS
+
+Last Update: 29th November 2025 - Added music written by Kane! thankyou!"
           :badges='["godot4"]'
           :buttons='[
             {link:"Wanderstep.apk", text:"Download Playtest"},
