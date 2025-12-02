@@ -83,6 +83,21 @@ var { data } = await useAsyncData('home', () => queryContent('blog').where({hidd
     <hr/>
     <h1>Current Projects</h1>
     <div class="featured-container">
+
+      <ProjectCardV2
+          src="img\adventofcode.png"
+          title="Advent of Code 2025"
+          description="Annual programming challenge"
+          long-description=
+"Advent of Code is an Annual programming challenge, you can use whatever language you want to try and solve each days puzzle.
+
+This year I'm attempting the challenge in Rust"
+          :buttons='[
+          {link:"https://github.com/tabby-cat-nya/advent-of-code-2025",text:"Visit Reposity"},
+        ]'
+        :badges='["rust"]'
+      />
+
       <ProjectCardV2
           src="img\fabcatAlpha.png"
           title="Fabcat"
