@@ -1,11 +1,15 @@
 <script setup lang="ts">
 
-useSeoMeta({
-  title: "hi from Smash!",
-  ogTitle: "hi from Smash!",
-  description: "meow meow meow!!",
-  ogDescription: "meow meow meow!!",
-});
+    // when theres an event or something, comment this out so users dont get sent to the homepage
+    navigateTo('/')
+
+
+    useSeoMeta({
+    title: "hi from Smash!",
+    ogTitle: "hi from Smash!",
+    description: "meow meow meow!!",
+    ogDescription: "meow meow meow!!",
+    });
 
 </script>
 
