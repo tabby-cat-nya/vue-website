@@ -5,6 +5,33 @@
     <hr>
     <div class="featured-container">
       <ProjectCardV2
+          src="img\adventofcode.png"
+          title="Advent of Code 2025"
+          description="Annual programming challenge"
+          long-description=
+"Advent of Code is an Annual programming challenge, you can use whatever language you want to try and solve each days puzzle.
+
+This year I'm attempting the challenge in Rust"
+          :buttons='[
+          {link:"https://github.com/tabby-cat-nya/advent-of-code-2025",text:"Visit Reposity"},
+        ]'
+        :badges='["rust"]'
+      />
+
+      <ProjectCardV2
+          src="img\fabcatAlpha.png"
+          title="Fabcat"
+          description="Fabsoc Discord Bot"
+          long-description=
+"Discord bot I programmed for fabrication society to help manage the status of the printers and track the inventory of spools"
+          :badges='["godot4"]'
+          :buttons= '[
+            {link:"http://tiny.cc/FabSocDiscord",text:"Join Fabsoc"},
+            {link:"https://utsfabsoc.github.io/Docs/Technician-Zone/Fabcat-Discord-Bot",text:"Read the Docs"},
+          ]'
+      />
+      
+      <ProjectCardV2
           src="https://img.itch.zone/aW1nLzIyOTc0OTQ5LnBuZw==/315x250%23c/RVYwV5.png"
           title="Lockdown Island"
           description="Game Design Studio 2 Project"
@@ -14,6 +41,23 @@
           :buttons= '[
             {link:"https://tabby-cat-nya.itch.io/lockdown-island",text:"Play on Itch.io"}
           ]'
+      />
+
+      <ProjectCardV2
+          src="https://img.itch.zone/aW1nLzIxMjI4MTM3LnBuZw==/300x240%23c/0HU9A6.png"
+          title="Channel Switcher"
+          description="Alternate your focus between all the channels to get the highest score!"
+          long-description=
+"Alternate your focus between all the channels to get the highest score!
+
+Kinda like warioware but instead of the games getting faster, you have to play more and more at the same time!
+
+Created for the Playmakers May 2025 Game Jam"
+          :buttons='[
+          { link: "https://tabby-cat-nya.itch.io/channel-switcher", text: "Play on Itch.io" },
+          { link: "https://github.com/tabby-cat-nya/channel-switcher", text: "View source code" }
+        ]'
+        :badges='["godot4","gamejam"]'
       />
 
       <ProjectCardV2
@@ -233,22 +277,7 @@ Press Up or W to start and A/D Left/Right to change lanes, also has settings tha
         :badges='["godot4","prototype"]'
       />
 
-      <ProjectCardV2
-          src="https://img.itch.zone/aW1nLzIxMjI4MTM3LnBuZw==/300x240%23c/0HU9A6.png"
-          title="Channel Switcher"
-          description="Alternate your focus between all the channels to get the highest score!"
-          long-description=
-"Alternate your focus between all the channels to get the highest score!
-
-Kinda like warioware but instead of the games getting faster, you have to play more and more at the same time!
-
-Created for the Playmakers May 2025 Game Jam"
-          :buttons='[
-          { link: "https://tabby-cat-nya.itch.io/channel-switcher", text: "Play on Itch.io" },
-          { link: "https://github.com/tabby-cat-nya/channel-switcher", text: "View source code" }
-        ]'
-        :badges='["godot4","gamejam"]'
-      />
+      
 
       
       

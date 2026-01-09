@@ -84,33 +84,18 @@ var { data } = await useAsyncData('home', () => queryContent('blog').where({hidd
     <h1>Current Projects</h1>
     <div class="featured-container">
 
+      
       <ProjectCardV2
-          src="img\adventofcode.png"
-          title="Advent of Code 2025"
-          description="Annual programming challenge"
+          src="img\pounce.png"
+          title="Pounce"
+          description="Discord bot to catch scammers"
           long-description=
-"Advent of Code is an Annual programming challenge, you can use whatever language you want to try and solve each days puzzle.
-
-This year I'm attempting the challenge in Rust"
+"After getting very frustrated with having to deal with the numerous discord scam bots claiming to be giving away 'free' macbooks and cameras, I made a bot to catch them and allow moderators to get rid of them before any normal user has a chance to see and potencially fall for their scams in the first place!"
           :buttons='[
-          {link:"https://github.com/tabby-cat-nya/advent-of-code-2025",text:"Visit Reposity"},
+            {link:"https://discord.gg/G3xjsQnBXV",text:"Pounce discord server - for testing and help"},
         ]'
-        :badges='["rust"]'
+        :badges='["godot4"]'
       />
-
-      <ProjectCardV2
-          src="img\fabcatAlpha.png"
-          title="Fabcat"
-          description="Fabsoc Discord Bot"
-          long-description=
-"Discord bot I programmed for fabrication society to help manage the status of the printers and track the inventory of spools"
-          :badges='["godot4"]'
-          :buttons= '[
-            {link:"http://tiny.cc/FabSocDiscord",text:"Join Fabsoc"},
-            {link:"https://utsfabsoc.github.io/Docs/Technician-Zone/Fabcat-Discord-Bot",text:"Read the Docs"},
-          ]'
-      />
-
       
 
       <ProjectCardV2
