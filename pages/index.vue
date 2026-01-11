@@ -86,6 +86,18 @@ var { data } = await useAsyncData('home', () => queryContent('blog').where({hidd
 
       
       <ProjectCardV2
+          src="img\newProject.png"
+          title="Unnamed game for Godot Wild Jam #89"
+          description="Making a game where you repurpose stuff from the ewaste bin"
+          long-description=
+""
+          :buttons='[
+            
+        ]'
+        :badges='["godot4", "gamejam"]'
+      />
+
+      <ProjectCardV2
           src="img\pounce.png"
           title="Pounce"
           description="Discord bot to catch scammers"
