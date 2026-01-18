@@ -86,12 +86,14 @@ var { data } = await useAsyncData('home', () => queryContent('blog').where({hidd
 
       
       <ProjectCardV2
-          src="img\newProject.png"
-          title="Unnamed game for Godot Wild Jam #89"
-          description="Making a game where you repurpose stuff from the ewaste bin"
+          src="https://img.itch.zone/aW1nLzI1MDU1OTEyLnBuZw==/315x250%23c/6xbLLl.png"
+          title="Rust Hacker"
+          description="Scavenge parts from the ewaste bin to build your botnet"
           long-description=
 ""
           :buttons='[
+            {link:"https://tabby-cat-nya.itch.io/rust-hacker",text:"Play Game"},
+            {link:"https://github.com/tabby-cat-nya/RustHacker",text:"Project Github"},
             
         ]'
         :badges='["godot4", "gamejam"]'
