@@ -5,7 +5,7 @@ description: "Post I originally put on Reddit about the process of starting femi
 date: 'Originally Posted 23-02-2024'
 id: 9
 tags: 'Queerness'
-hidden : true
+hidden : false
 
 ---
 
