@@ -15,7 +15,7 @@ So i guess this is the first proper post for my site where i will explain how th
 
 - **Framework:** I've made this evrsion of my website with Nuxt.js which is a framework based on Vue.js
 - **Hosting:** The site is hosted on Vercel within the free teir
-- **Domain Manageemnt:** I put the domain on cloudflare for now at least
+- **Domain Management:** I put the domain on cloudflare for now at least
 
 ### Markdown Formatting
 
