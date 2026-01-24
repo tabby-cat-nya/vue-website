@@ -12,28 +12,30 @@ hidden: false
 By default, the steam client has a number of ways to push you towards buying new games, not exactly a surprise since they are primarily a videogame storefront and distributor, however the adverting can still get annoying when all you want to do is play the games you already have. I've made this post to be a summary of all the ways you can reduce and/or eliminate steam promotional material.
 
 ### The Promotions Popup
-![promotions-popup.png]
+![promotions-popup.png](https://github.com/Clevertop/vue-website/blob/master/public/img/blogImages/steam-adverts/promotions-popup.png?raw=true){style="width: 25vw;"}
 
 You know that popup that appears everytime steam launches? You can switch it off! 
 
 **Steam -> Settings -> Interface -> "Notify me about additions or changes to my games, new releases, and upcoming releases"**
 
-![promotions-popup-fix.png]
+![promotions-popup-fix.png](https://github.com/Clevertop/vue-website/blob/master/public/img/blogImages/steam-adverts/promotions-popup-fix.png?raw=true){style="width: 50vw;"}
 
 ### Startup Location
 By default, steam opens to the store page, wouldn't it be more useful if it opened to your library?
 
 **Steam -> Settings -> Interface -> "Start Up Location" (Change to Library)**
 
-![startup-location.png]
+![startup-location.png](https://github.com/Clevertop/vue-website/blob/master/public/img/blogImages/steam-adverts/startup-location.png?raw=true){style="width: 50vw;"}
 
 ### What's New Promotions
-![whatsnew-before-after.png]
+![whatsnew-before-after.png](https://github.com/Clevertop/vue-website/blob/master/public/img/blogImages/steam-adverts/whatsnew-before-after.png?raw=true){style="width: 50vw;"}
+
+
 At the top of the library there is a What's New panel that often shows alot of promotions - albeit from developers themselves rather than from steam but still, if you want to limit it to only patch notes theres a handy setting, However, it is worth noting this setting is quite senstive and will also affect patch notes with any mention of promotional material aswell as posts which are both non-promotional and non-patch notes (for example community update posts)
 
 **Library Tab -> What's New (Cog icon) -> "Only show product updates not other types of events and news"**
 
-![whatsnew-fix.png]
+![whatsnew-fix.png](https://github.com/Clevertop/vue-website/blob/master/public/img/blogImages/steam-adverts/whatsnew-fix.png?raw=true){style="width: 50vw;"}
 
 ### Emails
 Steam has many different categories of promotional emails, your preferences can be managed from:
@@ -67,4 +69,4 @@ If you mostly only use steam as a game launcher and are not very interested in t
 
 **View -> Small Mode**
 
-![small-mode.png]
+![small-mode.png](https://github.com/Clevertop/vue-website/blob/master/public/img/blogImages/steam-adverts/small-mode.png?raw=true){style="width: 25vw;"}
