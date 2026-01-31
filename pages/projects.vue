@@ -5,6 +5,18 @@
     <hr>
     <div class="featured-container">
       <ProjectCardV2
+          src="img\lunar.png"
+          title="Super Lunar (Working Title)"
+          description="Cross between lunar lander and balloon trip breeze"
+          long-description=
+"Im working on a new prototype game idea, no idea if it will come to anything but figured i might aswell try it out. Basically its a cross between balloon Trip Breeze from Nintendo Land and Lunar Lander - the arcade game. Players will have to navigate their fragile little ship around obstacles with limited fuel reserves to reach the end. "
+          :buttons='[
+          
+        ]'
+        :badges='["godot4","prototype"]'
+      />
+      
+      <ProjectCardV2
           src="img\adventofcode.png"
           title="Advent of Code 2025"
           description="Annual programming challenge"

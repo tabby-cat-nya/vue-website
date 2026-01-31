@@ -49,6 +49,7 @@
     "steam": { name: "Steam API", color:"background-color : white", icon: "img/badges/steam.png"},
     "prototype":{name: "Prototype", color:"background-color : CornflowerBlue", icon:"img/badges/prototype.png"},
     "rust":{name: "Rust", color:"background-color : White", icon:"img/badges/rust.png"},
+    "esp32":{name: "ESP32", color:"background-color : White", icon:"img/badges/micro.png"},
   };
 
   // i wanna add some sort of data here, likely a dictionary, that matches a string to a Display name, Icon and Color for a badge

@@ -84,6 +84,19 @@ var { data } = await useAsyncData('home', () => queryContent('blog').where({hidd
     <h1>Current Projects</h1>
     <div class="featured-container">
 
+      <ProjectCardV2
+          src="img\tinyweb.png"
+          title="Server Charms"
+          description="Making a little tiny webserver out of an ESP32"
+          long-description=
+"armed with a processor, wifi antenna and a total of 4mb of flash storage I'm running a tiny web server off an ESP32, so small I plan to carry it around with me while it broadcasts an open wifi hotspot, anyone who joins will be sent to the tiny website through a captive portal"
+          :buttons='[
+            // {link:"https://tabby-cat-nya.itch.io/rust-hacker",text:"Play Game"},
+            // {link:"https://github.com/tabby-cat-nya/RustHacker",text:"Project Github"},
+            
+        ]'
+        :badges='["esp32"]'
+      />
       
       <ProjectCardV2
           src="https://img.itch.zone/aW1nLzI1MDU1OTEyLnBuZw==/315x250%23c/6xbLLl.png"
@@ -112,17 +125,7 @@ var { data } = await useAsyncData('home', () => queryContent('blog').where({hidd
       />
       
 
-      <ProjectCardV2
-          src="img\lunar.png"
-          title="Super Lunar (Working Title)"
-          description="Cross between lunar lander and balloon trip breeze"
-          long-description=
-"Im working on a new prototype game idea, no idea if it will come to anything but figured i might aswell try it out. Basically its a cross between balloon Trip Breeze from Nintendo Land and Lunar Lander - the arcade game. Players will have to navigate their fragile little ship around obstacles with limited fuel reserves to reach the end. "
-          :buttons='[
-          
-        ]'
-        :badges='["godot4","prototype"]'
-      />
+      
 
       
 
