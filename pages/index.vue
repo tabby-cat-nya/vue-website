@@ -26,7 +26,7 @@ var { data } = await useAsyncData('home', () => queryContent('blog').where({hidd
 
     <div class="container">
         <div class="left-col">
-            <img src="https://avatars.githubusercontent.com/u/41929769" class="pfp" />
+            <img src="https://forge.tabbycat.dev/avatars/f48cb754cf8aa29aaafed6a51bac1074c2561f58a3b6b82fd83ce9d30ea3c1ff?size=512" class="pfp" />
             <div class="aboutme">
             <h1>About Me</h1>
               <ul>
@@ -50,27 +50,27 @@ var { data } = await useAsyncData('home', () => queryContent('blog').where({hidd
             <!-- <p>Currently im working with my group, <a href="https://teamstingray.dev">Team Stingray</a>, to finish up our uni project <a href="https://teamstingray.dev/arcane-raiders">Arcane Raiders</a> and release it on Steam! Feel free to join our <a href="https://discord.gg/3BPYMHqNve">discord server</a> if you'd like to follow along with development!</p> -->
             <Socials>
               <Social 
-                    src="img/bluesky.png" 
+                    src="img/socials/bluesky.png" 
                     href="https://bsky.app/profile/tabbycat.dev" 
                 />  
               <Social 
-                    src="img/github.svg" 
-                    href="https://github.com/tabby-cat-nya" 
+                    src="img/socials/forgejoLogo.png" 
+                    href="https://forge.tabbycat.dev/tabby" 
                 />
                 <Social
-                    src="img/itch-io.svg"
+                    src="img/socials/itch-io.svg"
                     href="https://tabby-cat-nya.itch.io/"
                 />
                 <Social
-                    src="img/steam.svg"
+                    src="img/socials/steam.svg"
                     href="https://store.steampowered.com/search/?developer=Tabby"
                 />
                 <Social
-                    src="img/backlogged.png"
+                    src="img/socials/backlogged.png"
                     href="https://backloggd.com/u/tabby_cat/games/user-rating/type:played"
                 />
                 <Social
-                    src="img/furry.png"
+                    src="img/socials/furry.png"
                     href="https://www.furaffinity.net/user/fuzzysparkles/"
                 />
                 
@@ -85,7 +85,7 @@ var { data } = await useAsyncData('home', () => queryContent('blog').where({hidd
     <div class="featured-container">
 
       <ProjectCardV2
-          src="img\tinyweb.png"
+          src="img\projects\tinyweb.png"
           title="Server Charms"
           description="Making a little tiny webserver out of an ESP32"
           long-description=
@@ -113,7 +113,7 @@ var { data } = await useAsyncData('home', () => queryContent('blog').where({hidd
       />
 
       <ProjectCardV2
-          src="img\pounce.png"
+          src="img\projects\pounce.png"
           title="Pounce"
           description="Discord bot to catch scammers"
           long-description=

@@ -6,5 +6,6 @@ export default defineNuxtConfig({
   modules: ["@nuxt/content", "@nuxt/image"],
   content: {
     documentDriven: false
-  }
+  },
+  // ssr:true,
 })

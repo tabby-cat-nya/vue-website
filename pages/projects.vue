@@ -5,7 +5,7 @@
     <hr>
     <div class="featured-container">
       <ProjectCardV2
-          src="img\lunar.png"
+          src="img\projects\lunar.png"
           title="Super Lunar (Working Title)"
           description="Cross between lunar lander and balloon trip breeze"
           long-description=
@@ -17,7 +17,7 @@
       />
       
       <ProjectCardV2
-          src="img\adventofcode.png"
+          src="img\projects\adventofcode.png"
           title="Advent of Code 2025"
           description="Annual programming challenge"
           long-description=
@@ -31,7 +31,7 @@ This year I'm attempting the challenge in Rust"
       />
 
       <ProjectCardV2
-          src="img\fabcatAlpha.png"
+          src="img\projects\fabcatAlpha.png"
           title="Fabcat"
           description="Fabsoc Discord Bot"
           long-description=
@@ -73,7 +73,7 @@ Created for the Playmakers May 2025 Game Jam"
       />
 
       <ProjectCardV2
-          src="img\wanderstep.png"
+          src="img\projects\wanderstep.png"
           title="Wanderstep (Working Title)"
           description="Serious Games and Gamification Studio Project"
           long-description=
@@ -108,7 +108,7 @@ Last Update: 29th November 2025 - Added music written by Kane! thankyou!"
       />
       
       <ProjectCardV2
-          src="img\artfight.png"
+          src="img\projects\artfight.png"
           title="Artfight 2025"
           description="Annual month long art gifting event"
           long-description=
@@ -239,7 +239,7 @@ My main focus was on the online leaderboard and login system, After the game jam
       />
 
       <ProjectCardV2 
-        src=" img\doodleJump.png"
+        src=" img\projects\doodleJump.png"
         title="ThreeJS Doodle Jump"
         description="Cute little remake of Doodle Jump in ThreeJS"
         long-description=
@@ -253,7 +253,7 @@ My main focus was on the online leaderboard and login system, After the game jam
       />
 
       <ProjectCardV2 
-        src=" img\stingray.png"
+        src=" img\projects\stingray.png"
         title="Team Stingray Website"
         description="Website I made and maintain which we use to display our group and projects at showcases"
         long-description=
@@ -265,7 +265,7 @@ My main focus was on the online leaderboard and login system, After the game jam
       />
 
       <ProjectCardV2 
-        src=" img\racer.png"
+        src=" img\projects\racer.png"
         title="ThreeJS Racing Game"
         description="Simple 3D Lane racing game"
         long-description=
@@ -278,7 +278,7 @@ Press Up or W to start and A/D Left/Right to change lanes, also has settings tha
         :badges='["threejs"]'
       />
       <ProjectCardV2
-          src=" img\shine.png"
+          src=" img\projects\shine.png"
           title="ShineRunnersTest"
           description="TwitchPlays game based on Shine Runners from Mariokart DS"
           long-description=
